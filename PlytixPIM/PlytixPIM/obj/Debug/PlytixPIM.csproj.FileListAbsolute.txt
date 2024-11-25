@@ -62,5 +62,5 @@ C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPI
 C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.csproj.Up2Date
 C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.exe
 C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.pdb
-C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.EditarCategoria.resources
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearProducto.resources
+C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearProducto.resources
