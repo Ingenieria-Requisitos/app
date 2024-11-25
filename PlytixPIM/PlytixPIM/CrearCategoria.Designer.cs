@@ -32,6 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textCatName = new System.Windows.Forms.TextBox();
             this.bSubmit = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelCategories
@@ -74,11 +75,23 @@
             this.bSubmit.UseVisualStyleBackColor = true;
             this.bSubmit.Click += new System.EventHandler(this.bSubmit_Click);
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(34, 31);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(79, 30);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "<- BACK";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // CrearCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1482, 753);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bSubmit);
             this.Controls.Add(this.textCatName);
             this.Controls.Add(this.label1);
@@ -97,5 +110,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textCatName;
         private System.Windows.Forms.Button bSubmit;
+        private System.Windows.Forms.Button button1;
     }
 }
