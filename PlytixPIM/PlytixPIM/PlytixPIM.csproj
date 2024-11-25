@@ -77,6 +77,12 @@
     <Compile Include="CrearCategoria.Designer.cs">
       <DependentUpon>CrearCategoria.cs</DependentUpon>
     </Compile>
+    <Compile Include="CrearProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearProducto.Designer.cs">
+      <DependentUpon>CrearProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditarAtributo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,11 +95,11 @@
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="LeerCategoria.cs">
+    <Compile Include="EditarCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LeerCategoria.Designer.cs">
-      <DependentUpon>LeerCategoria.cs</DependentUpon>
+    <Compile Include="EditarCategoria.Designer.cs">
+      <DependentUpon>EditarCategoria.cs</DependentUpon>
     </Compile>
     <Compile Include="Productos.cs">
       <SubType>Form</SubType>
@@ -121,8 +127,8 @@
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LeerCategoria.resx">
-      <DependentUpon>LeerCategoria.cs</DependentUpon>
+    <EmbeddedResource Include="EditarCategoria.resx">
+      <DependentUpon>EditarCategoria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>

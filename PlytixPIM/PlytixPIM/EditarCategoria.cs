@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PlytixPIM
 {
-    public partial class LeerCategoria : Form
+    public partial class EditarCategoria : Form
     {
-        public LeerCategoria(string nombre,string num)
+        public EditarCategoria(string nombre,string num)
         {
             InitializeComponent();
             textCategoria.Text = nombre;

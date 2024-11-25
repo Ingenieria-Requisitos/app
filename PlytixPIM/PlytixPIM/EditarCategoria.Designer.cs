@@ -1,6 +1,6 @@
 ﻿namespace PlytixPIM
 {
-    partial class LeerCategoria
+    partial class EditarCategoria
     {
         /// <summary>
         /// Required designer variable.
@@ -37,10 +37,11 @@
             // textCategoria
             // 
             this.textCategoria.Font = new System.Drawing.Font("Arial Black", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textCategoria.Location = new System.Drawing.Point(379, 68);
+            this.textCategoria.Location = new System.Drawing.Point(284, 55);
+            this.textCategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textCategoria.Name = "textCategoria";
             this.textCategoria.ReadOnly = true;
-            this.textCategoria.Size = new System.Drawing.Size(773, 120);
+            this.textCategoria.Size = new System.Drawing.Size(581, 98);
             this.textCategoria.TabIndex = 0;
             this.textCategoria.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -48,43 +49,47 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(431, 384);
+            this.label1.Location = new System.Drawing.Point(323, 312);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(310, 32);
+            this.label1.Size = new System.Drawing.Size(247, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Nº Productos asociados";
             // 
             // textNum
             // 
             this.textNum.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textNum.Location = new System.Drawing.Point(815, 384);
+            this.textNum.Location = new System.Drawing.Point(611, 312);
+            this.textNum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textNum.Name = "textNum";
             this.textNum.ReadOnly = true;
-            this.textNum.Size = new System.Drawing.Size(290, 38);
+            this.textNum.Size = new System.Drawing.Size(218, 32);
             this.textNum.TabIndex = 2;
             // 
             // bBack
             // 
             this.bBack.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bBack.Location = new System.Drawing.Point(39, 36);
+            this.bBack.Location = new System.Drawing.Point(29, 29);
+            this.bBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bBack.Name = "bBack";
-            this.bBack.Size = new System.Drawing.Size(106, 35);
+            this.bBack.Size = new System.Drawing.Size(80, 28);
             this.bBack.TabIndex = 3;
             this.bBack.Text = "<- BACK";
             this.bBack.UseVisualStyleBackColor = true;
             this.bBack.Click += new System.EventHandler(this.bBack_Click);
             // 
-            // LeerCategoria
+            // EditarCategoria
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1482, 753);
+            this.ClientSize = new System.Drawing.Size(1112, 612);
             this.Controls.Add(this.bBack);
             this.Controls.Add(this.textNum);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textCategoria);
-            this.Name = "LeerCategoria";
-            this.Text = "LeerCategoria";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "EditarCategoria";
+            this.Text = "EditarCategoria";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LeerCategoria_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();

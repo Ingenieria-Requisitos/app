@@ -46,5 +46,13 @@ namespace PlytixPIM
         {
             Application.Exit();
         }
+
+        private void bAddProduct_Click(object sender, EventArgs e)
+        {
+            CrearProducto crearProducto = new CrearProducto();
+
+            crearProducto.Show();
+            this.Hide();
+        }
     }
 }

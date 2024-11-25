@@ -25,8 +25,8 @@ namespace PlytixPIM
         {
             string query = @"
         SELECT 
-            Categoria.nombre AS 'Categoría',
-            COUNT(Producto.sku) AS 'Número de Productos'
+            Categoria.nombre AS 'Category',
+            COUNT(Producto.sku) AS 'Number of products'
         FROM 
             Categoria
         LEFT JOIN 
@@ -90,18 +90,22 @@ namespace PlytixPIM
         private void bReadCategory_Click(object sender, EventArgs e)
         {
 
-            if (tablaCategorias.SelectedRows.Count >= 0)
+            if (tablaCategorias.SelectedRows.Count == 1)
             {
                 string nombre = tablaCategorias.SelectedRows[0].Cells[0].Value.ToString();
 
 
                 string num = tablaCategorias.SelectedRows[0].Cells[1].Value.ToString();
 
-                LeerCategoria leerCategoria = new LeerCategoria(nombre, num);
+                EditarCategoria editarCategoria = new EditarCategoria(nombre, num);
 
-                leerCategoria.Show();
+                editarCategoria.Show();
 
                 this.Hide();
+
+            }
+            else
+            {
 
             }  
         }

@@ -38,18 +38,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(308, 151);
+            this.label1.Location = new System.Drawing.Point(231, 123);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(883, 93);
+            this.label1.Size = new System.Drawing.Size(712, 75);
             this.label1.TabIndex = 0;
             this.label1.Text = "WELCOME TO PLYTIX";
             // 
             // bSeeProducts
             // 
             this.bSeeProducts.Font = new System.Drawing.Font("Arial Narrow", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bSeeProducts.Location = new System.Drawing.Point(31, 345);
+            this.bSeeProducts.Location = new System.Drawing.Point(23, 280);
+            this.bSeeProducts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bSeeProducts.Name = "bSeeProducts";
-            this.bSeeProducts.Size = new System.Drawing.Size(413, 220);
+            this.bSeeProducts.Size = new System.Drawing.Size(310, 179);
             this.bSeeProducts.TabIndex = 1;
             this.bSeeProducts.Text = "SEE PRODUCTS";
             this.bSeeProducts.UseVisualStyleBackColor = true;
@@ -58,9 +60,10 @@
             // bSeeCategories
             // 
             this.bSeeCategories.Font = new System.Drawing.Font("Arial Narrow", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bSeeCategories.Location = new System.Drawing.Point(525, 345);
+            this.bSeeCategories.Location = new System.Drawing.Point(394, 280);
+            this.bSeeCategories.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bSeeCategories.Name = "bSeeCategories";
-            this.bSeeCategories.Size = new System.Drawing.Size(413, 220);
+            this.bSeeCategories.Size = new System.Drawing.Size(310, 179);
             this.bSeeCategories.TabIndex = 2;
             this.bSeeCategories.Text = "SEE CATEGORIES";
             this.bSeeCategories.UseVisualStyleBackColor = true;
@@ -69,23 +72,25 @@
             // bSeeAtributes
             // 
             this.bSeeAtributes.Font = new System.Drawing.Font("Arial Narrow", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bSeeAtributes.Location = new System.Drawing.Point(1028, 345);
+            this.bSeeAtributes.Location = new System.Drawing.Point(771, 280);
+            this.bSeeAtributes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bSeeAtributes.Name = "bSeeAtributes";
-            this.bSeeAtributes.Size = new System.Drawing.Size(413, 220);
+            this.bSeeAtributes.Size = new System.Drawing.Size(310, 179);
             this.bSeeAtributes.TabIndex = 3;
-            this.bSeeAtributes.Text = "SEE ATRIBUTES";
+            this.bSeeAtributes.Text = "SEE ATTRIBUTES";
             this.bSeeAtributes.UseVisualStyleBackColor = true;
             this.bSeeAtributes.Click += new System.EventHandler(this.bSeeAtributes_Click);
             // 
             // Inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1482, 753);
+            this.ClientSize = new System.Drawing.Size(1112, 612);
             this.Controls.Add(this.bSeeAtributes);
             this.Controls.Add(this.bSeeCategories);
             this.Controls.Add(this.bSeeProducts);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Inicio";
             this.Text = "Inicio";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Inicio_FormClosing);
