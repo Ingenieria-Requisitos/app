@@ -40,3 +40,4 @@ C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.csproj.Up2Date
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.exe
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.pdb
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearAtributo.resources

@@ -76,6 +76,7 @@
             this.bAddAttribute.TabIndex = 4;
             this.bAddAttribute.Text = "Add Attribute";
             this.bAddAttribute.UseVisualStyleBackColor = true;
+            this.bAddAttribute.Click += new System.EventHandler(this.bAddAttribute_Click);
             // 
             // bEditAttribute
             // 

@@ -41,5 +41,14 @@ namespace PlytixPIM
             tablaAtributos.DataSource = atributos;
             tablaAtributos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
+
+        private void bAddAttribute_Click(object sender, EventArgs e)
+        {
+            CrearAtributo crearAtributo = new CrearAtributo();
+
+            crearAtributo.Show();
+
+            this.Hide();
+        }
     }
 }
