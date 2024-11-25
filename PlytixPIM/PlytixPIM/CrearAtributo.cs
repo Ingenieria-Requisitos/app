@@ -13,12 +13,12 @@ namespace PlytixPIM
     public partial class CrearAtributo : Form
     {
 
-        Consulta consulta;
+        
 
         public CrearAtributo()
         {
             InitializeComponent();
-            consulta = new Consulta();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -47,6 +47,8 @@ namespace PlytixPIM
 
         private void bSubmit_Click(object sender, EventArgs e)
         {
+            Consulta consulta = new Consulta();
+            
             string nombre = textName.Text;
 
             string tipo = desplegableTipo.SelectedItem.ToString();

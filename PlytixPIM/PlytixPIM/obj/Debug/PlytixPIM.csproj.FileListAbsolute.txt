@@ -32,7 +32,6 @@ C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Categorias.resources
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearCategoria.resources
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Inicio.resources
-C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.LeerCategoria.resources
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Productos.resources
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Properties.Resources.resources
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.csproj.GenerateResource.cache
@@ -64,3 +63,4 @@ C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPI
 C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.exe
 C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.pdb
 C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.EditarCategoria.resources
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearProducto.resources

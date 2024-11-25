@@ -14,11 +14,11 @@ namespace PlytixPIM
     {
 
 
-        private Consulta consulta;
+        
         public Atributos()
         {
             InitializeComponent();
-            consulta = new Consulta();
+            
         }
 
         private void Atributos_FormClosing(object sender, FormClosingEventArgs e)
@@ -37,6 +37,8 @@ namespace PlytixPIM
 
         private void Atributos_Load(object sender, EventArgs e)
         {
+            Consulta consulta = new Consulta(); 
+            
             var atributos = consulta.Select("SELECT *  FROM Atributo");
             tablaAtributos.DataSource = atributos;
             tablaAtributos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
@@ -55,9 +57,11 @@ namespace PlytixPIM
         {
             if(tablaAtributos.SelectedRows.Count > 0)
             {
-                int id = int.Parse(tablaAtributos.SelectedRows[0].Cells["id"].Value.ToString());
+                Consulta consulta = new Consulta();
+                
+                string name = (tablaAtributos.SelectedRows[0].Cells["nombre"].Value.ToString());
 
-                consulta.Delete("DELETE FROM Atributo WHERE id=" + id);
+                consulta.Delete("DELETE FROM Atributo WHERE nombre='" + name + "'");
 
                 this.Atributos_Load(sender, e);
             }
@@ -67,12 +71,12 @@ namespace PlytixPIM
         {
             if (tablaAtributos.SelectedRows.Count > 0)
             {
-                int id = int.Parse(tablaAtributos.SelectedRows[0].Cells["id"].Value.ToString());
+                
                 string name = tablaAtributos.SelectedRows[0].Cells["nombre"].Value.ToString();
                 string type = tablaAtributos.SelectedRows[0].Cells["tipo"].Value.ToString();
 
 
-                EditarAtributo editarAtributo = new EditarAtributo(id,name,type);
+                EditarAtributo editarAtributo = new EditarAtributo(name,type);
 
                 editarAtributo.Show();
 

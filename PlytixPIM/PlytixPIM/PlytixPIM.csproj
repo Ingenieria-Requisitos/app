@@ -95,12 +95,6 @@
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditarCategoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EditarCategoria.Designer.cs">
-      <DependentUpon>EditarCategoria.cs</DependentUpon>
-    </Compile>
     <Compile Include="Productos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,14 +115,14 @@
     <EmbeddedResource Include="CrearCategoria.resx">
       <DependentUpon>CrearCategoria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrearProducto.resx">
+      <DependentUpon>CrearProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditarAtributo.resx">
       <DependentUpon>EditarAtributo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditarCategoria.resx">
-      <DependentUpon>EditarCategoria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>

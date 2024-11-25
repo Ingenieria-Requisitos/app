@@ -19,11 +19,11 @@ namespace PlytixPIM
     {
 
 
-        private Consulta consulta;
+       
         public CrearCategoria()
         {
             InitializeComponent();
-            consulta = new Consulta();
+            
         }
 
         private void labelCategories_Click(object sender, EventArgs e)
@@ -33,6 +33,7 @@ namespace PlytixPIM
 
         private void bSubmit_Click(object sender, EventArgs e)
         {
+            Consulta consulta = new Consulta();
             string nombreCategoria = textCatName.Text;
             consulta.Insert("INSERT INTO Categoria VALUES ('" + nombreCategoria + "')");
 

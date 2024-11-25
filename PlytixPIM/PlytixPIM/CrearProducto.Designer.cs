@@ -42,10 +42,10 @@
             // bSubmit
             // 
             this.bSubmit.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bSubmit.Location = new System.Drawing.Point(231, 477);
-            this.bSubmit.Margin = new System.Windows.Forms.Padding(2);
+            this.bSubmit.Location = new System.Drawing.Point(308, 587);
+            this.bSubmit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bSubmit.Name = "bSubmit";
-            this.bSubmit.Size = new System.Drawing.Size(104, 58);
+            this.bSubmit.Size = new System.Drawing.Size(139, 71);
             this.bSubmit.TabIndex = 8;
             this.bSubmit.Text = "Add";
             this.bSubmit.UseVisualStyleBackColor = true;
@@ -54,20 +54,19 @@
             // skuBox
             // 
             this.skuBox.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.skuBox.Location = new System.Drawing.Point(231, 283);
-            this.skuBox.Margin = new System.Windows.Forms.Padding(2);
+            this.skuBox.Location = new System.Drawing.Point(308, 348);
+            this.skuBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.skuBox.Name = "skuBox";
-            this.skuBox.Size = new System.Drawing.Size(354, 32);
+            this.skuBox.Size = new System.Drawing.Size(471, 38);
             this.skuBox.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(46, 283);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(61, 348);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 25);
+            this.label1.Size = new System.Drawing.Size(72, 32);
             this.label1.TabIndex = 6;
             this.label1.Text = "SKU";
             // 
@@ -75,59 +74,56 @@
             // 
             this.labelCategories.AutoSize = true;
             this.labelCategories.Font = new System.Drawing.Font("Arial", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCategories.Location = new System.Drawing.Point(327, 72);
-            this.labelCategories.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelCategories.Location = new System.Drawing.Point(436, 89);
             this.labelCategories.Name = "labelCategories";
-            this.labelCategories.Size = new System.Drawing.Size(517, 75);
+            this.labelCategories.Size = new System.Drawing.Size(644, 93);
             this.labelCategories.TabIndex = 5;
             this.labelCategories.Text = "NEW PRODUCT";
             // 
             // gtinBox
             // 
             this.gtinBox.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gtinBox.Location = new System.Drawing.Point(231, 344);
-            this.gtinBox.Margin = new System.Windows.Forms.Padding(2);
+            this.gtinBox.Location = new System.Drawing.Point(308, 423);
+            this.gtinBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gtinBox.Name = "gtinBox";
-            this.gtinBox.Size = new System.Drawing.Size(354, 32);
+            this.gtinBox.Size = new System.Drawing.Size(471, 38);
             this.gtinBox.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(46, 344);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(61, 423);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 25);
+            this.label2.Size = new System.Drawing.Size(80, 32);
             this.label2.TabIndex = 9;
             this.label2.Text = "GTIN";
             // 
             // labelBox
             // 
             this.labelBox.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBox.Location = new System.Drawing.Point(231, 228);
-            this.labelBox.Margin = new System.Windows.Forms.Padding(2);
+            this.labelBox.Location = new System.Drawing.Point(308, 281);
+            this.labelBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelBox.Name = "labelBox";
-            this.labelBox.Size = new System.Drawing.Size(354, 32);
+            this.labelBox.Size = new System.Drawing.Size(471, 38);
             this.labelBox.TabIndex = 12;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(46, 228);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(61, 281);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 25);
+            this.label3.Size = new System.Drawing.Size(82, 32);
             this.label3.TabIndex = 11;
             this.label3.Text = "Label";
             // 
             // bBack
             // 
-            this.bBack.Location = new System.Drawing.Point(48, 118);
-            this.bBack.Margin = new System.Windows.Forms.Padding(2);
+            this.bBack.Location = new System.Drawing.Point(64, 145);
+            this.bBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bBack.Name = "bBack";
-            this.bBack.Size = new System.Drawing.Size(56, 19);
+            this.bBack.Size = new System.Drawing.Size(75, 23);
             this.bBack.TabIndex = 13;
             this.bBack.Text = "<- BACK";
             this.bBack.UseVisualStyleBackColor = true;
@@ -135,9 +131,9 @@
             // 
             // CrearProducto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1112, 612);
+            this.ClientSize = new System.Drawing.Size(1483, 753);
             this.Controls.Add(this.bBack);
             this.Controls.Add(this.labelBox);
             this.Controls.Add(this.label3);
@@ -147,7 +143,9 @@
             this.Controls.Add(this.skuBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelCategories);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "CrearProducto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CrearProducto";
             this.Load += new System.EventHandler(this.CrearProducto_Load);
             this.ResumeLayout(false);

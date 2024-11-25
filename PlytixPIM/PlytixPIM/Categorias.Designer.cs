@@ -31,7 +31,6 @@
             this.labelCategories = new System.Windows.Forms.Label();
             this.tablaCategorias = new System.Windows.Forms.DataGridView();
             this.bAddCategory = new System.Windows.Forms.Button();
-            this.bReadCategory = new System.Windows.Forms.Button();
             this.bBack = new System.Windows.Forms.Button();
             this.bDeleteCategory = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tablaCategorias)).BeginInit();
@@ -59,23 +58,13 @@
             // 
             // bAddCategory
             // 
-            this.bAddCategory.Location = new System.Drawing.Point(860, 655);
+            this.bAddCategory.Location = new System.Drawing.Point(1063, 655);
             this.bAddCategory.Name = "bAddCategory";
             this.bAddCategory.Size = new System.Drawing.Size(186, 70);
             this.bAddCategory.TabIndex = 2;
             this.bAddCategory.Text = "Add New Category";
             this.bAddCategory.UseVisualStyleBackColor = true;
             this.bAddCategory.Click += new System.EventHandler(this.bAddCategory_Click);
-            // 
-            // bReadCategory
-            // 
-            this.bReadCategory.Location = new System.Drawing.Point(1076, 655);
-            this.bReadCategory.Name = "bReadCategory";
-            this.bReadCategory.Size = new System.Drawing.Size(186, 70);
-            this.bReadCategory.TabIndex = 3;
-            this.bReadCategory.Text = "Read Category";
-            this.bReadCategory.UseVisualStyleBackColor = true;
-            this.bReadCategory.Click += new System.EventHandler(this.bReadCategory_Click);
             // 
             // bBack
             // 
@@ -105,11 +94,11 @@
             this.ClientSize = new System.Drawing.Size(1482, 753);
             this.Controls.Add(this.bDeleteCategory);
             this.Controls.Add(this.bBack);
-            this.Controls.Add(this.bReadCategory);
             this.Controls.Add(this.bAddCategory);
             this.Controls.Add(this.tablaCategorias);
             this.Controls.Add(this.labelCategories);
             this.Name = "Categorias";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Categorias";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Categorias_FormClosing);
             this.Load += new System.EventHandler(this.Categorias_Load);
@@ -124,7 +113,6 @@
         private System.Windows.Forms.Label labelCategories;
         private System.Windows.Forms.DataGridView tablaCategorias;
         private System.Windows.Forms.Button bAddCategory;
-        private System.Windows.Forms.Button bReadCategory;
         private System.Windows.Forms.Button bBack;
         private System.Windows.Forms.Button bDeleteCategory;
     }

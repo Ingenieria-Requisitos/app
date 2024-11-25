@@ -124,6 +124,7 @@
             this.Controls.Add(this.bBack);
             this.Controls.Add(this.label1);
             this.Name = "EditarAtributo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EditarAtributo";
             this.Load += new System.EventHandler(this.EditarAtributo_Load);
             this.ResumeLayout(false);

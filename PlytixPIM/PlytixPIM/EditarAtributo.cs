@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,19 +14,17 @@ namespace PlytixPIM
     public partial class EditarAtributo : Form
     {
 
-        private Consulta consulta;
-
-        private int id;
+        
         private string nameOld;
         private string typeOld;
         
         
-        public EditarAtributo(int id,string nameOld,string typeOld)
+        public EditarAtributo(string nameOld,string typeOld)
         {
             InitializeComponent();
-            consulta = new Consulta();
+            
 
-            this.id = id;
+            
             this.nameOld = nameOld;
             this.typeOld = typeOld;
         }
@@ -52,14 +51,20 @@ namespace PlytixPIM
 
         private void bSubmit_Click(object sender, EventArgs e)
         {
-            if (!nameOld.Equals(textName.Text))
+            if (!typeOld.Equals(desplegableTipo.SelectedItem.ToString()))
             {
-                consulta.Update("UPDATE Atributo SET nombre='" + textName.Text + "' WHERE id=" + id);
+                Consulta consulta = new Consulta();
+                consulta.Update("UPDATE Atributo SET tipo='" + desplegableTipo.SelectedItem.ToString() + "' WHERE nombre='" + nameOld + "'");
             }
 
-            if (!typeOld.Equals(desplegableTipo.SelectedItem.ToString())){
-                consulta.Update("UPDATE Atributo SET tipo='" + desplegableTipo.SelectedItem.ToString() + "' WHERE id=" + id);
+
+            if (!nameOld.Equals(textName.Text))
+            {
+                Consulta consulta = new Consulta();
+                consulta.Update("UPDATE Atributo SET nombre='" + textName.Text + "' WHERE nombre='" + nameOld + "'");
             }
+
+            
 
             Atributos atributos = new Atributos();
             atributos.Show();

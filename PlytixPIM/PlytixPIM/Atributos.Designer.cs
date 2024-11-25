@@ -112,6 +112,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bBack);
             this.Name = "Atributos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Atributos";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Atributos_FormClosing);
             this.Load += new System.EventHandler(this.Atributos_Load);

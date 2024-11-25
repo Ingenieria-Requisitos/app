@@ -13,16 +13,18 @@ namespace PlytixPIM
     public partial class Categorias : Form
     {
 
-        private Consulta consulta;
+        
         
         public Categorias()
         {
             InitializeComponent();
-            consulta = new Consulta();
+            
         }
 
         private void Categorias_Load(object sender, EventArgs e)
         {
+
+            Consulta consulta = new Consulta();
             string query = @"
         SELECT 
             Categoria.nombre AS 'Category',
@@ -74,40 +76,35 @@ namespace PlytixPIM
         {
             if (tablaCategorias.SelectedRows.Count > 0)
             {
-                string nombre = tablaCategorias.SelectedRows[0].Cells[0].Value.ToString();
+                string nombre = tablaCategorias.SelectedRows[0].Cells[0].Value.ToString(); //nombre categoria
+                
+                if (int.Parse(tablaCategorias.SelectedRows[0].Cells[1].Value.ToString()) > 0)
+                {
+                    Consulta consulta1 = new Consulta();
+
+                    consulta1.Update("UPDATE Producto SET categoria_nombre=NULL WHERE categoria_nombre='" + nombre + "'");
+                }
+                
+                
+                
+                
+                Consulta consulta = new Consulta();
+                
+                
 
                 consulta.Delete("DELETE FROM Categoria WHERE nombre='" + nombre + "'");
 
+                this.Categorias_Load(sender, e);
 
 
-            
+
+
             }
 
 
 
         }
 
-        private void bReadCategory_Click(object sender, EventArgs e)
-        {
-
-            if (tablaCategorias.SelectedRows.Count == 1)
-            {
-                string nombre = tablaCategorias.SelectedRows[0].Cells[0].Value.ToString();
-
-
-                string num = tablaCategorias.SelectedRows[0].Cells[1].Value.ToString();
-
-                EditarCategoria editarCategoria = new EditarCategoria(nombre, num);
-
-                editarCategoria.Show();
-
-                this.Hide();
-
-            }
-            else
-            {
-
-            }  
-        }
+       
     }
 }

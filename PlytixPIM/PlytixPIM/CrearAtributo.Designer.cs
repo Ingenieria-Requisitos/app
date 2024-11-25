@@ -125,6 +125,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "CrearAtributo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CrearAtributo";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CrearAtributo_FormClosing);
             this.Load += new System.EventHandler(this.CrearAtributo_Load);
