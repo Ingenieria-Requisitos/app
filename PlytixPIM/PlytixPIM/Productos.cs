@@ -37,7 +37,8 @@ namespace PlytixPIM
             Consulta consulta = new Consulta();
             var productos = consulta.Select("SELECT thumbnail AS 'Thumbnail'," +
                 "sku AS 'SKU'," +
-                "label AS 'Label' " +
+                "label AS 'Label'," +
+                "categoria_nombre AS 'Category' " +
                 "FROM Producto");
             tablaProductos.DataSource = productos;
             tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
@@ -96,6 +97,21 @@ namespace PlytixPIM
 
             
 
+        }
+
+        private void bEditProduct_Click(object sender, EventArgs e)
+        {
+
+            if (tablaProductos.SelectedRows.Count > 0) {
+
+                int sku = int.Parse(tablaProductos.SelectedRows[0].Cells["SKU"].Value.ToString());
+
+                EditarProducto editarProducto = new EditarProducto(sku);
+
+                editarProducto.Show();
+
+                this.Hide();
+            }
         }
     }
 }
