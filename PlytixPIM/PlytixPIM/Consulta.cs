@@ -30,12 +30,6 @@ namespace PlytixPIM
         {
 
 
-            
-
-
-
-
-
             DataTable tabla = new DataTable();
 
             try
@@ -72,29 +66,10 @@ namespace PlytixPIM
 
         public void Delete(string consulta)
         {
-            try
-            {
-                using (MySqlConnection connection = conexionMySQL.GetConnection())
-                {
-                    if (connection.State == System.Data.ConnectionState.Open) // Verifica si la conexión está abierta
-                    {
-                        using (MySqlCommand cmd = new MySqlCommand(consulta, connection))
-                        {
-                            cmd.ExecuteNonQuery();
-                            MessageBox.Show("Eliminación realizada correctamente.");
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show("No se pudo establecer una conexión con la base de datos.");
-                    }
-                }
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show($"Error al eliminar: {e.Message}");
-            }
+            EjecutarComando(consulta, "DELETE");
         }
+
+
 
         public void Insert(string consulta)
         {

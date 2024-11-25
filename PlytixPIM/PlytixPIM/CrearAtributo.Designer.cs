@@ -127,6 +127,7 @@
             this.Name = "CrearAtributo";
             this.Text = "CrearAtributo";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CrearAtributo_FormClosing);
+            this.Load += new System.EventHandler(this.CrearAtributo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

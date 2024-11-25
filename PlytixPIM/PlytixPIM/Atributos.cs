@@ -50,5 +50,34 @@ namespace PlytixPIM
 
             this.Hide();
         }
+
+        private void bDeleteAttribute_Click(object sender, EventArgs e)
+        {
+            if(tablaAtributos.SelectedRows.Count > 0)
+            {
+                int id = int.Parse(tablaAtributos.SelectedRows[0].Cells["id"].Value.ToString());
+
+                consulta.Delete("DELETE FROM Atributo WHERE id=" + id);
+
+                this.Atributos_Load(sender, e);
+            }
+        }
+
+        private void bEditAttribute_Click(object sender, EventArgs e)
+        {
+            if (tablaAtributos.SelectedRows.Count > 0)
+            {
+                int id = int.Parse(tablaAtributos.SelectedRows[0].Cells["id"].Value.ToString());
+                string name = tablaAtributos.SelectedRows[0].Cells["nombre"].Value.ToString();
+                string type = tablaAtributos.SelectedRows[0].Cells["tipo"].Value.ToString();
+
+
+                EditarAtributo editarAtributo = new EditarAtributo(id,name,type);
+
+                editarAtributo.Show();
+
+                this.Hide();
+            }
+        }
     }
 }

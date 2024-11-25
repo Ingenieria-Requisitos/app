@@ -87,6 +87,7 @@
             this.bEditAttribute.TabIndex = 5;
             this.bEditAttribute.Text = "Edit Attribute";
             this.bEditAttribute.UseVisualStyleBackColor = true;
+            this.bEditAttribute.Click += new System.EventHandler(this.bEditAttribute_Click);
             // 
             // bDeleteAttribute
             // 
@@ -97,6 +98,7 @@
             this.bDeleteAttribute.TabIndex = 6;
             this.bDeleteAttribute.Text = "Delete Attribute";
             this.bDeleteAttribute.UseVisualStyleBackColor = true;
+            this.bDeleteAttribute.Click += new System.EventHandler(this.bDeleteAttribute_Click);
             // 
             // Atributos
             // 

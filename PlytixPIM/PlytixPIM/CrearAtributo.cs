@@ -59,5 +59,10 @@ namespace PlytixPIM
 
             this.Hide();
         }
+
+        private void CrearAtributo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

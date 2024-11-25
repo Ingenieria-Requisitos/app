@@ -77,6 +77,12 @@
     <Compile Include="CrearCategoria.Designer.cs">
       <DependentUpon>CrearCategoria.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditarAtributo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarAtributo.Designer.cs">
+      <DependentUpon>EditarAtributo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrearCategoria.resx">
       <DependentUpon>CrearCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarAtributo.resx">
+      <DependentUpon>EditarAtributo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
