@@ -1,78 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\",
+  "WorkspaceRootPath": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\ruizp\\desktop\\jose\\uni\\tercero\\requisitos\\plytix\\app\\plytixpim\\plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\ruizp\\desktop\\jose\\uni\\tercero\\requisitos\\plytix\\app\\plytixpim\\plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\ruizp\\desktop\\jose\\uni\\tercero\\requisitos\\plytix\\app\\plytixpim\\plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\source\\repos\\plytixpim\\plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\atributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\atributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\atributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\atributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\source\\repos\\plytixpim\\plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\source\\repos\\plytixpim\\plytixpim\\leercategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\leercategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\source\\repos\\plytixpim\\plytixpim\\leercategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\leercategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\source\\repos\\plytixpim\\plytixpim\\leercategoria.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\leercategoria.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\categorias.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\categorias.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\crearcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\ruizp\\desktop\\jose\\uni\\tercero\\requisitos\\plytix\\app\\plytixpim\\plytixpim\\crearcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\crearcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\ruizp\\desktop\\jose\\uni\\tercero\\requisitos\\plytix\\app\\plytixpim\\plytixpim\\crearcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\conexionmysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\conexionmysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\plytixpim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,229 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Productos.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Productos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Productos.cs",
-              "RelativeToolTip": "PlytixPIM\\Productos.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAkwCIAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:14:30.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Productos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Productos.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Productos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Productos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlytixPIM\\Productos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:26:47.137Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LeerCategoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\LeerCategoria.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\LeerCategoria.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\LeerCategoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlytixPIM\\LeerCategoria.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:11:49.119Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Consulta.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Consulta.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Consulta.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Consulta.cs",
-              "RelativeToolTip": "PlytixPIM\\Consulta.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAcwGAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T21:57:07.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Categorias.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Categorias.Designer.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Categorias.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Categorias.Designer.cs",
-              "RelativeToolTip": "PlytixPIM\\Categorias.Designer.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAkwE0AAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T21:49:40.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CrearCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\CrearCategoria.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\CrearCategoria.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\CrearCategoria.cs",
-              "RelativeToolTip": "PlytixPIM\\CrearCategoria.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwDAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T21:36:39.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LeerCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\LeerCategoria.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\LeerCategoria.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\LeerCategoria.cs",
-              "RelativeToolTip": "PlytixPIM\\LeerCategoria.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:12:27.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Categorias.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Categorias.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Categorias.cs",
-              "RelativeToolTip": "PlytixPIM\\Categorias.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAcwCwAAAAMAAAAAAAAAA==",
+              "Title": "CrearCategoria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearCategoria.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\CrearCategoria.cs",
+              "ToolTip": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearCategoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\CrearCategoria.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:46:09.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Atributos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Atributos.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Atributos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Atributos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlytixPIM\\Atributos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T19:00:03.568Z",
+              "WhenOpened": "2024-11-24T23:33:16.642Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Atributos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Atributos.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Atributos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Atributos.cs",
-              "RelativeToolTip": "PlytixPIM\\Atributos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABWAAAAAAAAAA==",
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\Productos.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Productos.cs",
+              "ToolTip": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\Productos.cs",
+              "RelativeToolTip": "PlytixPIM\\Productos.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T19:08:28.364Z",
+              "WhenOpened": "2024-11-24T23:28:55.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LeerCategoria.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\LeerCategoria.Designer.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\LeerCategoria.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\LeerCategoria.Designer.cs",
-              "RelativeToolTip": "PlytixPIM\\LeerCategoria.Designer.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAkwEsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CrearProducto.cs",
+              "DocumentMoniker": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\CrearProducto.cs",
+              "ToolTip": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs",
+              "RelativeToolTip": "PlytixPIM\\CrearProducto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:12:36.904Z",
+              "WhenOpened": "2024-11-24T23:26:41.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Categorias.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Categorias.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Categorias.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Categorias.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlytixPIM\\Categorias.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "CrearProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\CrearProducto.cs",
+              "ToolTip": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\CrearProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:28:07.324Z",
+              "WhenOpened": "2024-11-24T23:23:29.073Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CrearCategoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\CrearCategoria.cs",
+              "DocumentIndex": 3,
+              "Title": "CrearCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearCategoria.cs",
               "RelativeDocumentMoniker": "PlytixPIM\\CrearCategoria.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\CrearCategoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlytixPIM\\CrearCategoria.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearCategoria.cs",
+              "RelativeToolTip": "PlytixPIM\\CrearCategoria.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T21:36:08.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ConexionMySQL.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\ConexionMySQL.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\ConexionMySQL.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\ConexionMySQL.cs",
-              "RelativeToolTip": "PlytixPIM\\ConexionMySQL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T16:00:58.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Inicio.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Inicio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Inicio.cs",
-              "RelativeToolTip": "PlytixPIM\\Inicio.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvzUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:54:08.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Productos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Productos.Designer.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Productos.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Productos.Designer.cs",
-              "RelativeToolTip": "PlytixPIM\\Productos.Designer.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAqwEMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:14:44.359Z",
+              "WhenOpened": "2024-11-24T23:02:20.03Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Connection.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Connection.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Connection.cs",
-              "RelativeToolTip": "PlytixPIM\\Connection.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T16:05:11.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Program.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PlytixPIM\\PlytixPIM\\Program.cs",
-              "RelativeToolTip": "PlytixPIM\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T15:57:56.328Z"
             }
           ]
         }

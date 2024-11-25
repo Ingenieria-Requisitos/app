@@ -25,8 +25,8 @@ namespace PlytixPIM
         {
             string query = @"
         SELECT 
-            Categoria.nombre AS 'Categoría',
-            COUNT(Producto.sku) AS 'Número de Productos'
+            Categoria.nombre AS 'Category',
+            COUNT(Producto.sku) AS 'Number of Products'
         FROM 
             Categoria
         LEFT JOIN 
