@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,25 +42,12 @@ namespace PlytixPIM
             tablaProductos.DataSource = productos;
             tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
-            Consulta consulta1 = new Consulta();
 
-            DataTable res = consulta1.Select("SELECT Nombre FROM Atributo");
-            int numeroAtributos = 0;
-            foreach (DataRow fila in res.Rows)
-            {
-                numeroAtributos = int.Parse(fila["NumeroAtributos"].ToString());
-                tablaProductos.Columns.Add(fila["Nombre"].ToString());
-            }
-
-            for (int i = 3; i < numeroAtributos+3; i++)
-            {
-                tablaProductos.Columns.Add()
+            tablaProductos.RowTemplate.Height = 120;
+            DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
+            imgCol = (DataGridViewImageColumn)tablaProductos.Columns[0];
+            imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom;
             
-            
-            }
-            
-
-
 
 
 
