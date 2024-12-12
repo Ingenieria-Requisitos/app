@@ -80,21 +80,36 @@ namespace PlytixPIM
                 
                 if (int.Parse(tablaCategorias.SelectedRows[0].Cells[1].Value.ToString()) > 0)
                 {
-                    Consulta consulta1 = new Consulta();
 
-                    consulta1.Update("UPDATE Producto SET categoria_nombre=NULL WHERE categoria_nombre='" + nombre + "'");
+                        DialogResult resultado = MessageBox.Show(
+                        "¿Quieres continuar? Vas a borrar una categoria con productos asociados", // Mensaje
+                        "Confirmación",         // Título de la ventana
+                        MessageBoxButtons.YesNo, // Botones disponibles
+                        MessageBoxIcon.Question // Icono que se muestra
+                        );
+
+                    if (resultado == DialogResult.Yes)
+                    {
+                        
+
+                        Consulta consulta1 = new Consulta();
+
+                        consulta1.Update("UPDATE Producto SET categoria_nombre=NULL WHERE categoria_nombre='" + nombre + "'");
+                
+                        Consulta consulta = new Consulta();
+             
+                        consulta.Delete("DELETE FROM Categoria WHERE nombre='" + nombre + "'");
+
+                        this.Categorias_Load(sender, e);
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 
                 
                 
-                
-                Consulta consulta = new Consulta();
-                
-                
-
-                consulta.Delete("DELETE FROM Categoria WHERE nombre='" + nombre + "'");
-
-                this.Categorias_Load(sender, e);
 
 
 

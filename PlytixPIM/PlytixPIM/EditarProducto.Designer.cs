@@ -34,12 +34,12 @@
             this.imagenBox = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.texta1 = new System.Windows.Forms.TextBox();
+            this.labela1 = new System.Windows.Forms.Label();
+            this.texta3 = new System.Windows.Forms.TextBox();
+            this.labela3 = new System.Windows.Forms.Label();
+            this.texta2 = new System.Windows.Forms.TextBox();
+            this.labela2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.bBack = new System.Windows.Forms.Button();
             this.labelBox = new System.Windows.Forms.TextBox();
@@ -50,6 +50,10 @@
             this.skuBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.labelCategories = new System.Windows.Forms.Label();
+            this.labela4 = new System.Windows.Forms.Label();
+            this.labela5 = new System.Windows.Forms.Label();
+            this.texta4 = new System.Windows.Forms.TextBox();
+            this.texta5 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.imagenBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -118,68 +122,68 @@
             this.label8.Text = "User Attributes";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // textBox1
+            // texta1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(1117, 173);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(300, 38);
-            this.textBox1.TabIndex = 43;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.texta1.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texta1.Location = new System.Drawing.Point(1117, 173);
+            this.texta1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.texta1.Name = "texta1";
+            this.texta1.Size = new System.Drawing.Size(300, 38);
+            this.texta1.TabIndex = 43;
+            this.texta1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label5
+            // labela1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(870, 173);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(205, 32);
-            this.label5.TabIndex = 42;
-            this.label5.Text = "User attribute 1";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.labela1.AutoSize = true;
+            this.labela1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labela1.Location = new System.Drawing.Point(870, 173);
+            this.labela1.Name = "labela1";
+            this.labela1.Size = new System.Drawing.Size(205, 32);
+            this.labela1.TabIndex = 42;
+            this.labela1.Text = "User attribute 1";
+            this.labela1.Click += new System.EventHandler(this.label5_Click);
             // 
-            // textBox2
+            // texta3
             // 
-            this.textBox2.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(1117, 315);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(300, 38);
-            this.textBox2.TabIndex = 41;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.texta3.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texta3.Location = new System.Drawing.Point(1117, 315);
+            this.texta3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.texta3.Name = "texta3";
+            this.texta3.Size = new System.Drawing.Size(300, 38);
+            this.texta3.TabIndex = 41;
+            this.texta3.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // label6
+            // labela3
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(870, 315);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(205, 32);
-            this.label6.TabIndex = 40;
-            this.label6.Text = "User attribute 3";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.labela3.AutoSize = true;
+            this.labela3.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labela3.Location = new System.Drawing.Point(870, 315);
+            this.labela3.Name = "labela3";
+            this.labela3.Size = new System.Drawing.Size(205, 32);
+            this.labela3.TabIndex = 40;
+            this.labela3.Text = "User attribute 3";
+            this.labela3.Click += new System.EventHandler(this.label6_Click);
             // 
-            // textBox3
+            // texta2
             // 
-            this.textBox3.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(1117, 240);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(300, 38);
-            this.textBox3.TabIndex = 39;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.texta2.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texta2.Location = new System.Drawing.Point(1117, 240);
+            this.texta2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.texta2.Name = "texta2";
+            this.texta2.Size = new System.Drawing.Size(300, 38);
+            this.texta2.TabIndex = 39;
+            this.texta2.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // label7
+            // labela2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(870, 240);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(205, 32);
-            this.label7.TabIndex = 38;
-            this.label7.Text = "User attribute 2";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.labela2.AutoSize = true;
+            this.labela2.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labela2.Location = new System.Drawing.Point(870, 240);
+            this.labela2.Name = "labela2";
+            this.labela2.Size = new System.Drawing.Size(205, 32);
+            this.labela2.TabIndex = 38;
+            this.labela2.Text = "User attribute 2";
+            this.labela2.Click += new System.EventHandler(this.label7_Click);
             // 
             // label4
             // 
@@ -289,23 +293,65 @@
             this.labelCategories.Text = "EDIT PRODUCT";
             this.labelCategories.Click += new System.EventHandler(this.labelCategories_Click);
             // 
+            // labela4
+            // 
+            this.labela4.AutoSize = true;
+            this.labela4.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labela4.Location = new System.Drawing.Point(870, 388);
+            this.labela4.Name = "labela4";
+            this.labela4.Size = new System.Drawing.Size(205, 32);
+            this.labela4.TabIndex = 50;
+            this.labela4.Text = "User attribute 4";
+            // 
+            // labela5
+            // 
+            this.labela5.AutoSize = true;
+            this.labela5.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labela5.Location = new System.Drawing.Point(870, 461);
+            this.labela5.Name = "labela5";
+            this.labela5.Size = new System.Drawing.Size(205, 32);
+            this.labela5.TabIndex = 51;
+            this.labela5.Text = "User attribute 5";
+            // 
+            // texta4
+            // 
+            this.texta4.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texta4.Location = new System.Drawing.Point(1117, 388);
+            this.texta4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.texta4.Name = "texta4";
+            this.texta4.Size = new System.Drawing.Size(300, 38);
+            this.texta4.TabIndex = 52;
+            // 
+            // texta5
+            // 
+            this.texta5.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texta5.Location = new System.Drawing.Point(1117, 455);
+            this.texta5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.texta5.Name = "texta5";
+            this.texta5.Size = new System.Drawing.Size(300, 38);
+            this.texta5.TabIndex = 53;
+            // 
             // EditarProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1482, 753);
+            this.Controls.Add(this.texta5);
+            this.Controls.Add(this.texta4);
+            this.Controls.Add(this.labela5);
+            this.Controls.Add(this.labela4);
             this.Controls.Add(this.listaCategorias);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.bUploadImage);
             this.Controls.Add(this.imagenBox);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.texta1);
+            this.Controls.Add(this.labela1);
+            this.Controls.Add(this.texta3);
+            this.Controls.Add(this.labela3);
+            this.Controls.Add(this.texta2);
+            this.Controls.Add(this.labela2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.bBack);
             this.Controls.Add(this.labelBox);
@@ -335,12 +381,12 @@
         private System.Windows.Forms.PictureBox imagenBox;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox texta1;
+        private System.Windows.Forms.Label labela1;
+        private System.Windows.Forms.TextBox texta3;
+        private System.Windows.Forms.Label labela3;
+        private System.Windows.Forms.TextBox texta2;
+        private System.Windows.Forms.Label labela2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button bBack;
         private System.Windows.Forms.TextBox labelBox;
@@ -351,5 +397,9 @@
         private System.Windows.Forms.TextBox skuBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelCategories;
+        private System.Windows.Forms.Label labela4;
+        private System.Windows.Forms.Label labela5;
+        private System.Windows.Forms.TextBox texta4;
+        private System.Windows.Forms.TextBox texta5;
     }
 }

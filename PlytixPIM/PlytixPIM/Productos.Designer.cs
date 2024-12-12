@@ -34,6 +34,7 @@
             this.bAddProduct = new System.Windows.Forms.Button();
             this.bEditProduct = new System.Windows.Forms.Button();
             this.bDeleteProducts = new System.Windows.Forms.Button();
+            this.bCsv = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tablaProductos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,6 +73,7 @@
             this.tablaProductos.Size = new System.Drawing.Size(976, 412);
             this.tablaProductos.TabIndex = 3;
             this.tablaProductos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.tablaProductos.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.tablaProductos_DataError);
             // 
             // bAddProduct
             // 
@@ -106,11 +108,23 @@
             this.bDeleteProducts.UseVisualStyleBackColor = true;
             this.bDeleteProducts.Click += new System.EventHandler(this.bDeleteProducts_Click);
             // 
+            // bCsv
+            // 
+            this.bCsv.Location = new System.Drawing.Point(803, 688);
+            this.bCsv.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bCsv.Name = "bCsv";
+            this.bCsv.Size = new System.Drawing.Size(135, 53);
+            this.bCsv.TabIndex = 7;
+            this.bCsv.Text = "Generate CSV";
+            this.bCsv.UseVisualStyleBackColor = true;
+            this.bCsv.Click += new System.EventHandler(this.bCsv_Click);
+            // 
             // Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1483, 753);
+            this.Controls.Add(this.bCsv);
             this.Controls.Add(this.bDeleteProducts);
             this.Controls.Add(this.bEditProduct);
             this.Controls.Add(this.bAddProduct);
@@ -137,5 +151,6 @@
         private System.Windows.Forms.Button bAddProduct;
         private System.Windows.Forms.Button bEditProduct;
         private System.Windows.Forms.Button bDeleteProducts;
+        private System.Windows.Forms.Button bCsv;
     }
 }

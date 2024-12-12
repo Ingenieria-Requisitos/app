@@ -19,8 +19,8 @@ namespace PlytixPIM
         public Productos()
         {
             InitializeComponent();
+        }  
             
-        }
 
         private void bBack_Click(object sender, EventArgs e)
         {
@@ -33,8 +33,32 @@ namespace PlytixPIM
 
         private void Productos_Load(object sender, EventArgs e)
         {
-            
+          
             Consulta consulta = new Consulta();
+            DataTable res = consulta.Select("SELECT Nombre FROM Atributo ORDER BY fecha_creacion");
+            String atributo1 = res.Rows[0]["Nombre"].ToString();
+            String atributo2 = res.Rows[1]["Nombre"].ToString();
+            String atributo3 = res.Rows[2]["Nombre"].ToString();
+            
+
+
+            Consulta consulta1 = new Consulta();
+            var productos = consulta1.Select(
+                "SELECT p.thumbnail as thumbnail," +
+                "       p.sku AS sku, " +
+                "       p.label AS Nombre, " +
+                "       MAX(CASE WHEN a.Nombre = '" + atributo1 + "' THEN va.valor END) AS " + atributo1 + ", " +
+                "       MAX(CASE WHEN a.Nombre = '" + atributo2 + "' THEN va.valor END) AS " + atributo2 + ", " +
+                "       MAX(CASE WHEN a.Nombre = '" + atributo3 + "' THEN va.valor END) AS " + atributo3 + " " +
+                "FROM Producto p " +
+                "LEFT JOIN ValorAtributo va ON p.sku = va.producto_sku " +
+                "LEFT JOIN Atributo a ON va.atributo_nombre = a.nombre " +
+                "GROUP BY p.thumbnail, p.sku, p.label;"
+            );
+            tablaProductos.DataSource = productos;
+            tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+        
+            /*Consulta consulta = new Consulta();
             var productos = consulta.Select("SELECT thumbnail AS 'Thumbnail'," +
                 "sku AS 'SKU'," +
                 "label AS 'Label'," +
@@ -47,7 +71,7 @@ namespace PlytixPIM
             tablaProductos.RowTemplate.Height = 120;
             DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
             imgCol = (DataGridViewImageColumn)tablaProductos.Columns[0];
-            imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom;*/
             
 
 
@@ -80,12 +104,12 @@ namespace PlytixPIM
                 int skuBorrar = int.Parse(tablaProductos.SelectedRows[0].Cells["SKU"].Value.ToString());
 
 
-                if (tablaProductos.SelectedRows[0].Cells["Category"].Value.ToString() != null)
+                /*if (tablaProductos.SelectedRows[0].Cells["Category"].Value.ToString() != null)
                 {
                     Consulta consulta2 = new Consulta();
 
                     consulta2.Delete("DELETE FROM ValorAtributo WHERE producto_sku ='" + skuBorrar + "'");
-                }
+                }*/
 
 
                 consulta1.Delete("DELETE FROM Producto WHERE sku=" + skuBorrar);
@@ -112,6 +136,21 @@ namespace PlytixPIM
 
                 this.Hide();
             }
+        }
+
+        private void tablaProductos_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+            
+        }
+
+        private void bCsv_Click(object sender, EventArgs e)
+        {
+            Csv csv = new Csv();
+
+            csv.Show();
+
+
+            this.Hide();
         }
     }
 }

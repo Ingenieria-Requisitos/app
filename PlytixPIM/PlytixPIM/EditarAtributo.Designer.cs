@@ -126,6 +126,7 @@
             this.Name = "EditarAtributo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EditarAtributo";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditarAtributo_FormClosing);
             this.Load += new System.EventHandler(this.EditarAtributo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

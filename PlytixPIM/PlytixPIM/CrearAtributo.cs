@@ -53,7 +53,7 @@ namespace PlytixPIM
 
             string tipo = desplegableTipo.SelectedItem.ToString();
 
-            consulta.Insert("INSERT INTO Atributo (nombre,tipo) VALUES ('" + nombre + "','" + tipo + "')");
+            consulta.Insert("INSERT INTO Atributo (nombre,tipo) VALUES ('" + nombre + "','" + tipo + "');");
 
             Atributos atributos = new Atributos();
 

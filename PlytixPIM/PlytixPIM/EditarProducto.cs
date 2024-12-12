@@ -184,7 +184,50 @@ namespace PlytixPIM
                 listaCategorias.SelectedItem = categoria;
             }
 
+            Consulta c6 = new Consulta();
+            int numAtributos = int.Parse(c6.SelectEscalar("SELECT COUNT(*) FROM Atributo")[0][0].ToString());
 
+            List<Label> labels = new List<Label>();
+            List<TextBox> textboxes = new List<TextBox>();
+
+            labels.Add(labela1);
+            labels.Add(labela2);
+            labels.Add(labela3);
+            labels.Add(labela4);
+            labels.Add(labela5);
+
+            textboxes.Add(texta1);
+            textboxes.Add(texta2);
+            textboxes.Add(texta3);
+            textboxes.Add(texta4);
+            textboxes.Add(texta5);
+
+            Consulta c5 = new Consulta();
+            DataTable sol = c5.Select("SELECT Nombre FROM Atributo ORDER BY fecha_creacion");
+
+
+            for (int i = 0; i < 5; i++)
+            {
+                if (i >= numAtributos)
+                {
+                    labels[i].Hide();
+                    textboxes[i].Hide();
+                }
+                else
+                {
+                    String nombre = sol.Rows[i]["Nombre"].ToString();
+                    labels[i].Text = nombre;
+                    Consulta c7 = new Consulta();
+                    DataTable valores = c7.Select("SELECT valor FROM ValorAtributo WHERE atributo_nombre = '" + nombre + "'");
+                    if (valores.Rows.Count > 0)
+                    {
+                        textboxes[i].Text = valores.Rows[0]["valor"].ToString();
+                    }else
+                    {
+                        textboxes[i].Text = "";
+                    }
+                }
+            }
         }
 
         private void EditarProducto_FormClosing(object sender, FormClosingEventArgs e)

@@ -7,28 +7,113 @@
       "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\editarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\editarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\plytixpim\\editarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\editarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\AppData\\Local\\Temp\\.vsdbgsrc\\047738a4dc366f594bc079a4f79d238b469fbfb4d580e122af5129ba153fe72e\\RBTree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\editaratributo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\editaratributo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\crearatributo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearatributo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\AppData\\Local\\Temp\\.vsdbgsrc\\8caa55885db827e4d60f3d5c73afc8fffa843cc71a5a1ef73ed88dc8694fb812\\ThrowHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\atributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\atributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\crearatributo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearatributo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\atributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\atributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\crearcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\plytixpim\\productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\relacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\relacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\editaratributo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\editaratributo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\relacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\relacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\AppData\\Local\\Temp\\.vsdbgsrc\\b757f522472b8a8a37afd3dba5401844a6d6aa23af65b9c3e845bbeaa0bb4011\\Control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\usuario\\documents\\uma\\3\\1cuatrimestre\\ing-requisitos\\plytix app\\github-plytix\\app\\plytixpim\\plytixpim\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +123,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditarProducto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\EditarProducto.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\EditarProducto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\EditarProducto.cs",
-              "RelativeToolTip": "PlytixPIM\\EditarProducto.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAYwH0AAAB/AAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "Csv.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Csv.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Csv.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Csv.cs",
+              "RelativeToolTip": "PlytixPIM\\Csv.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwD0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T20:24:26.808Z",
+              "WhenOpened": "2024-12-12T17:17:10.529Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RBTree.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\AppData\\Local\\Temp\\.vsdbgsrc\\047738a4dc366f594bc079a4f79d238b469fbfb4d580e122af5129ba153fe72e\\RBTree.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\047738a4dc366f594bc079a4f79d238b469fbfb4d580e122af5129ba153fe72e\\RBTree.cs",
+              "ToolTip": "C:\\Users\\Usuario\\AppData\\Local\\Temp\\.vsdbgsrc\\047738a4dc366f594bc079a4f79d238b469fbfb4d580e122af5129ba153fe72e\\RBTree.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\047738a4dc366f594bc079a4f79d238b469fbfb4d580e122af5129ba153fe72e\\RBTree.cs [Solo lectura]",
+              "ViewState": "AgIAAIgEAAAAAAAAAAAAAJoEAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:31:25.216Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Productos.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Productos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Productos.cs",
+              "RelativeToolTip": "PlytixPIM\\Productos.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvygAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:52:46.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditarAtributo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\EditarAtributo.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\EditarAtributo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\EditarAtributo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\EditarAtributo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:37:57.115Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EditarProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\EditarProducto.cs",
               "RelativeDocumentMoniker": "PlytixPIM\\EditarProducto.cs",
@@ -67,20 +191,147 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CrearProducto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\CrearProducto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs",
-              "RelativeToolTip": "PlytixPIM\\CrearProducto.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwFIAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EditarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\EditarProducto.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\EditarProducto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\EditarProducto.cs",
+              "RelativeToolTip": "PlytixPIM\\EditarProducto.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAqwN0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T19:27:09.884Z",
+              "WhenOpened": "2024-11-25T20:24:26.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "CrearAtributo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearAtributo.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\CrearAtributo.cs",
+              "ToolTip": "PlytixPIM/CrearAtributo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "PlytixPIM",
+              "OverriddenToolTip": "PlytixPIM/CrearAtributo.cs",
+              "WhenOpened": "2024-12-12T16:09:45.443Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Categorias.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs",
+              "RelativeToolTip": "PlytixPIM\\Categorias.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAA6wFMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "PlytixPIM",
+              "WhenOpened": "2024-12-12T18:20:46.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThrowHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\AppData\\Local\\Temp\\.vsdbgsrc\\8caa55885db827e4d60f3d5c73afc8fffa843cc71a5a1ef73ed88dc8694fb812\\ThrowHelper.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\8caa55885db827e4d60f3d5c73afc8fffa843cc71a5a1ef73ed88dc8694fb812\\ThrowHelper.cs",
+              "ToolTip": "C:\\Users\\Usuario\\AppData\\Local\\Temp\\.vsdbgsrc\\8caa55885db827e4d60f3d5c73afc8fffa843cc71a5a1ef73ed88dc8694fb812\\ThrowHelper.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\8caa55885db827e4d60f3d5c73afc8fffa843cc71a5a1ef73ed88dc8694fb812\\ThrowHelper.cs [Solo lectura]",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:57:51.27Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Productos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Productos.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Productos.cs",
+              "ToolTip": "PlytixPIM/Productos.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "PlytixPIM",
+              "OverriddenToolTip": "PlytixPIM/Productos.cs",
+              "WhenOpened": "2024-11-25T15:52:43.974Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CrearAtributo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearAtributo.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\CrearAtributo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearAtributo.cs",
+              "RelativeToolTip": "PlytixPIM\\CrearAtributo.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDcAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:10:24.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Categorias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Categorias.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\Categorias.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:20:41.582Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Atributos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Atributos.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Atributos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Atributos.cs",
+              "RelativeToolTip": "PlytixPIM\\Atributos.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswFAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:15:13.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Csv.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Csv.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Csv.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Csv.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\Csv.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:15:29.086Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Atributos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Atributos.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Atributos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Atributos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\Atributos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:15:12.719Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cuenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Cuenta.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Cuenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\Cuenta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:06:41.194Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "CrearProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs",
               "RelativeDocumentMoniker": "PlytixPIM\\CrearProducto.cs",
@@ -92,41 +343,156 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
+              "Title": "CrearCategoria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearCategoria.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\CrearCategoria.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearCategoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\CrearCategoria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:22:58.444Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Cuenta.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Cuenta.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Cuenta.cs",
+              "RelativeToolTip": "PlytixPIM\\Cuenta.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAASwEkAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:09:31.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CrearProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\CrearProducto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs",
+              "RelativeToolTip": "PlytixPIM\\CrearProducto.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwDsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:27:09.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Inicio.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Inicio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T15:32:16.196Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Relacion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Relacion.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Relacion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Relacion.cs",
+              "RelativeToolTip": "PlytixPIM\\Relacion.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAawCEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T15:51:17.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Relacion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Relacion.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Relacion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Relacion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\Relacion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T15:45:19.501Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Productos.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Productos.Designer.cs",
               "RelativeDocumentMoniker": "PlytixPIM\\Productos.Designer.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Productos.Designer.cs",
               "RelativeToolTip": "PlytixPIM\\Productos.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAApwHYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T17:58:01.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Productos.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Productos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Productos.cs",
-              "RelativeToolTip": "PlytixPIM\\Productos.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwCUAAABQAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "EditarAtributo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\EditarAtributo.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\EditarAtributo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\EditarAtributo.cs",
+              "RelativeToolTip": "PlytixPIM\\EditarAtributo.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAApwEwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:52:46.899Z",
+              "WhenOpened": "2024-12-12T16:40:47.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Productos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Productos.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Productos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Productos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlytixPIM\\Productos.cs [Dise\u00F1o]",
+              "DocumentIndex": 25,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Inicio.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Inicio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Inicio.cs",
+              "RelativeToolTip": "PlytixPIM\\Inicio.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAIA5wDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:52:43.974Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-12T15:33:51.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Control.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\AppData\\Local\\Temp\\.vsdbgsrc\\b757f522472b8a8a37afd3dba5401844a6d6aa23af65b9c3e845bbeaa0bb4011\\Control.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b757f522472b8a8a37afd3dba5401844a6d6aa23af65b9c3e845bbeaa0bb4011\\Control.cs",
+              "ToolTip": "C:\\Users\\Usuario\\AppData\\Local\\Temp\\.vsdbgsrc\\b757f522472b8a8a37afd3dba5401844a6d6aa23af65b9c3e845bbeaa0bb4011\\Control.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b757f522472b8a8a37afd3dba5401844a6d6aa23af65b9c3e845bbeaa0bb4011\\Control.cs [Solo lectura]",
+              "ViewState": "AgIAAK8XAAAAAAAAAIAwwL4XAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:38:44.565Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Program.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Program.cs",
+              "RelativeToolTip": "PlytixPIM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:31:04.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Consulta.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Consulta.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Consulta.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UMA\\3\\1CUATRIMESTRE\\ING-REQUISITOS\\Plytix APP\\Github-Plytix\\app\\PlytixPIM\\PlytixPIM\\Consulta.cs",
+              "RelativeToolTip": "PlytixPIM\\Consulta.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T15:25:47.347Z",
+              "EditorCaption": ""
             }
           ]
         }

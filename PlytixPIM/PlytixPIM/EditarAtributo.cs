@@ -71,5 +71,10 @@ namespace PlytixPIM
             this.Hide();
         
         }
+
+        private void EditarAtributo_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

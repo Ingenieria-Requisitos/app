@@ -26,6 +26,41 @@ namespace PlytixPIM
 
         }
 
+        public List<object[]> SelectEscalar(string consulta)
+        {
+            List<object[]> resultados = new List<object[]>();
+
+            try
+            {
+                using (MySqlConnection connection = conexionMySQL.GetConnection())
+                {
+                    using (MySqlCommand cmd = new MySqlCommand(consulta, connection))
+                    {
+                        using (MySqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                object[] fila = new object[reader.FieldCount];
+                                reader.GetValues(fila);
+                                resultados.Add(fila);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show($"Error en SELECT: {e.Message}");
+            }
+
+            return resultados;
+        }
+
+
+
+
+
+
         public DataTable Select(string consulta)
         {
 

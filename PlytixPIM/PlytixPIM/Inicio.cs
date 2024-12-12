@@ -37,7 +37,7 @@ namespace PlytixPIM
 
         private void Inicio_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void Inicio_FormClosing(object sender, FormClosingEventArgs e)
@@ -50,6 +50,24 @@ namespace PlytixPIM
             Atributos atributos = new Atributos();
 
             atributos.Show();
+
+            this.Hide();
+        }
+
+        private void bSeeRelationships_Click(object sender, EventArgs e)
+        {
+            
+            Relacion relacion = new Relacion();
+
+            relacion.Show();
+
+            this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Cuenta cuenta= new Cuenta();
+            cuenta.Show();
 
             this.Hide();
         }

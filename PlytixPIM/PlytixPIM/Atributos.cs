@@ -39,7 +39,7 @@ namespace PlytixPIM
         {
             Consulta consulta = new Consulta(); 
             
-            var atributos = consulta.Select("SELECT *  FROM Atributo");
+            var atributos = consulta.Select("SELECT nombre as ATTRIBUTE, tipo AS TYPE FROM Atributo ORDER BY fecha_creacion");
             tablaAtributos.DataSource = atributos;
             tablaAtributos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
@@ -57,11 +57,46 @@ namespace PlytixPIM
         {
             if(tablaAtributos.SelectedRows.Count > 0)
             {
-                Consulta consulta = new Consulta();
                 
-                string name = (tablaAtributos.SelectedRows[0].Cells["nombre"].Value.ToString());
 
-                consulta.Delete("DELETE FROM Atributo WHERE nombre='" + name + "'");
+                string name = (tablaAtributos.SelectedRows[0].Cells["ATTRIBUTE"].Value.ToString());
+                
+                Consulta c3 = new Consulta();
+                int numeroProductos = int.Parse(c3.SelectEscalar("SELECT COUNT(*) FROM ValorAtributo WHERE atributo_nombre='" + name + "'")[0][0].ToString());
+
+                if(numeroProductos > 0)
+                {
+
+
+                    DialogResult resultado = MessageBox.Show(
+                        "¿Quieres continuar? Vas a borrar un atributo con productos asociados", // Mensaje
+                        "Confirmación",         // Título de la ventana
+                        MessageBoxButtons.YesNo, // Botones disponibles
+                        MessageBoxIcon.Question // Icono que se muestra
+                        );
+
+                    if (resultado == DialogResult.Yes)
+                    {
+                        Consulta consulta = new Consulta();
+                        consulta.Delete("DELETE FROM ValorAtributo WHERE atributo_nombre='" + name + "'");
+                        Consulta consulta2 = new Consulta();
+                        consulta2.Delete("DELETE FROM Atributo WHERE nombre='" + name + "'");
+                    }
+                    else
+                    {
+                        return;
+                    }
+                }
+                else
+                {
+                    Consulta consulta4 = new Consulta();
+                    consulta4.Delete("DELETE FROM Atributo WHERE nombre='" + name + "'");
+                }
+
+
+                
+
+                
 
                 this.Atributos_Load(sender, e);
             }
