@@ -120,10 +120,71 @@ namespace PlytixPIM
             string label = labelBox.Text;
             int skuNuevo = int.Parse(skuBox.Text);
             string gtin = gtinBox.Text;
+            if (gtin.Length != 14)
+            {
+                MessageBox.Show("El GTIN debe tener 14 dígitos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             string categoria = listaCategorias.SelectedItem.ToString();
+            int aux = this.sku;
+
             Consulta consulta3 = new Consulta();
 
-            consulta3.Update("UPDATE Producto SET label='" + label + "',sku=" + skuNuevo + ",gtin=" + gtin + ",categoria_nombre='" + categoria + "' WHERE sku=" + this.sku);
+            consulta3.Update("UPDATE Producto SET label='" + label + "',sku=" + skuNuevo + ",gtin=" + gtin + ",categoria_nombre='" + categoria + "' WHERE sku=" + aux);
+            
+
+            Consulta c6 = new Consulta();
+            int numAtributos = int.Parse(c6.SelectEscalar("SELECT COUNT(*) FROM Atributo")[0][0].ToString());
+
+            List<TextBox> textboxes = new List<TextBox>();
+            List<Label> labels = new List<Label>();
+
+            labels.Add(labela1);
+            labels.Add(labela2);
+            labels.Add(labela3);
+            labels.Add(labela4);
+            labels.Add(labela5);
+
+            textboxes.Add(texta1);
+            textboxes.Add(texta2);
+            textboxes.Add(texta3);
+            textboxes.Add(texta4);
+            textboxes.Add(texta5);
+
+            
+
+
+            for (int i=0; i < numAtributos; i++)
+            {
+                
+                Consulta c8 = new Consulta();
+
+                int veces = int.Parse(c8.SelectEscalar("SELECT COUNT(*) FROM ValorAtributo WHERE producto_sku=" + aux +" AND atributo_nombre = '" + labels[i].Text + "'")[0][0].ToString());
+                string atributo = textboxes[i].Text;
+
+                if (veces > 0)
+                {
+
+
+
+
+                    Consulta c7 = new Consulta();
+
+                    c7.Update("UPDATE ValorAtributo SET valor='" + atributo + "', producto_sku = "+ skuNuevo + " WHERE producto_sku=" + aux + " AND atributo_nombre='" + labels[i].Text +"'");
+
+                }
+                else
+                {
+                    Consulta c9 = new Consulta();
+
+                    c9.Insert("INSERT INTO ValorAtributo (producto_sku, atributo_nombre, valor) VALUES (" + skuNuevo + ", '" + labels[i].Text + "', '" + atributo + "')");
+
+                }
+
+            }
+
+
+
 
 
             Productos productos = new Productos();
@@ -203,8 +264,8 @@ namespace PlytixPIM
             textboxes.Add(texta5);
 
             Consulta c5 = new Consulta();
-            DataTable sol = c5.Select("SELECT Nombre FROM Atributo ORDER BY fecha_creacion");
-
+            DataTable sol = c5.Select("SELECT a.nombre FROM Atributo a JOIN ValorAtributo v ON a.nombre=v.atributo_nombre WHERE v.producto_sku="+ this.sku +" ORDER BY a.fecha_creacion");
+           
 
             for (int i = 0; i < 5; i++)
             {
@@ -218,10 +279,12 @@ namespace PlytixPIM
                     String nombre = sol.Rows[i]["Nombre"].ToString();
                     labels[i].Text = nombre;
                     Consulta c7 = new Consulta();
-                    DataTable valores = c7.Select("SELECT valor FROM ValorAtributo WHERE atributo_nombre = '" + nombre + "'");
+                    DataTable valores = c7.Select("SELECT valor FROM ValorAtributo WHERE atributo_nombre = '" + nombre + "' AND producto_sku = "+ this.sku);
+                    
                     if (valores.Rows.Count > 0)
                     {
-                        textboxes[i].Text = valores.Rows[0]["valor"].ToString();
+                        String valor = valores.Rows[0]["valor"].ToString();
+                        textboxes[i].Text = valor;
                     }else
                     {
                         textboxes[i].Text = "";

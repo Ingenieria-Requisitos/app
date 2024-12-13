@@ -38,8 +38,39 @@ namespace PlytixPIM
             {
                 listaCategorias.Items.Add(cat);
             }
-        
-        
+
+            Consulta c6 = new Consulta();
+            int numAtributos = int.Parse(c6.SelectEscalar("SELECT COUNT(*) FROM Atributo")[0][0].ToString());
+
+            List<Label> labels = new List<Label>();
+            List<TextBox> textboxes = new List<TextBox>();
+
+            labels.Add(labela1);
+            labels.Add(labela2);
+            labels.Add(labela3);
+            labels.Add(labela4);
+            labels.Add(labela5);
+
+            textboxes.Add(texta1);
+            textboxes.Add(texta2);
+            textboxes.Add(texta3);
+            textboxes.Add(texta4);
+            textboxes.Add(texta5);
+
+            for(int i = 0; i<5; i++)
+            {
+                if (i >= numAtributos)
+                {
+                    labels[i].Hide();
+                    textboxes[i].Hide();
+                }
+                else
+                {
+                    Consulta c9 = new Consulta();
+                    labels[i].Text = c9.SelectEscalar("SELECT nombre FROM Atributo ORDER BY fecha_creacion")[i][0].ToString();
+                }
+            }
+
         }
 
 
@@ -61,6 +92,15 @@ namespace PlytixPIM
             string label = labelBox.Text;
             string sku = skuBox.Text;
             string gtin = gtinBox.Text;
+            if (gtin.Length != 14)
+            {
+                MessageBox.Show("El GTIN debe tener 14 dígitos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            
+                
+
+            
             string categoria = listaCategorias.SelectedItem.ToString();
 
             //byte[] img = GetImageBytes();
@@ -77,6 +117,32 @@ namespace PlytixPIM
             {
                 
                 consulta.Insert("INSERT INTO Producto (label, sku, gtin,categoria_nombre) VALUES ('" + label + "', '" + sku + "', '" + gtin + "','" + categoria + "')");
+
+                Consulta c2 = new Consulta();
+                List<Object[]> lista = c2.SelectEscalar("SELECT nombre FROM Atributo ORDER BY fecha_creacion");
+                List<String> atributos = new List<String>();
+
+                List<TextBox> textboxes = new List<TextBox>();
+                textboxes.Add(texta1);
+                textboxes.Add(texta2);
+                textboxes.Add(texta3);
+                textboxes.Add(texta4);
+                textboxes.Add(texta5);
+
+                foreach (Object[] array in lista)
+                {
+                    atributos.Add(array[0].ToString());
+                }
+            
+                for(int i = 0; i < atributos.Count; i++)
+                {
+                    
+                    Consulta c3 = new Consulta();
+                    string valor = textboxes[i].Text;
+                    c3.Insert("INSERT INTO ValorAtributo (producto_sku, atributo_nombre, valor) VALUES ('" + sku + "', '" + atributos[i] + "', '" + valor + "')");
+                }
+            
+            
             }
 
 

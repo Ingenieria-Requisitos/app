@@ -112,6 +112,9 @@ namespace PlytixPIM
                 }*/
 
 
+                Consulta c2 = new Consulta();
+                c2.Delete("DELETE FROM ValorAtributo WHERE producto_sku=" + skuBorrar);
+
                 consulta1.Delete("DELETE FROM Producto WHERE sku=" + skuBorrar);
                
 

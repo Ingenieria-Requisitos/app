@@ -120,7 +120,7 @@ namespace PlytixPIM
                     using (var command = new MySqlCommand(consulta, connection))
                     {
                         var filasAfectadas = command.ExecuteNonQuery();
-                        MessageBox.Show($"{tipo}: {filasAfectadas} fila(s) afectada(s).", "Operación Exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        
                     }
                 }
             }
