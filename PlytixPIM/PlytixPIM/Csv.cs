@@ -29,9 +29,7 @@ namespace PlytixPIM
 
         private void Csv_Load(object sender, EventArgs e)
         {
-            listCategorias.ClearSelected();
-            tablaProductos.ClearSelection();
-
+            listCategorias.Items.Clear();
             Consulta consulta = new Consulta();
             List <Object[]> lista = consulta.SelectEscalar("SELECT nombre FROM Categoria");
             foreach (Object[] obj in lista)
@@ -41,17 +39,28 @@ namespace PlytixPIM
 
 
             Consulta consulta1 = new Consulta();
-            var productos = consulta1.Select("SELECT thumbnail AS 'Thumbnail'," +
-                "sku AS 'SKU'," +
-                "label AS 'Label'," +
-                "categoria_nombre AS 'Category' " +
-                "FROM Producto");
+            var productos = consulta1.Select("SELECT p.thumbnail AS 'Thumbnail', " +
+                "p.sku AS 'SKU', " +
+                "p.label AS 'Label', " +
+                "MAX(CASE WHEN pc.RowNum = 1 THEN pc.cat END) AS 'Category 1', " +
+                "MAX(CASE WHEN pc.RowNum = 2 THEN pc.cat END) AS 'Category 2', " +
+                "MAX(CASE WHEN pc.RowNum = 3 THEN pc.cat END) AS 'Category 3' " +
+                "FROM Producto p " +
+                "JOIN ( " +
+                "    SELECT pc.producto as prod, c.nombre as cat, ROW_NUMBER() OVER (PARTITION BY pc.producto ORDER BY c.nombre) AS RowNum " +
+                "    FROM ProductoCategoria pc " +
+                "    JOIN Categoria c ON pc.categoria = c.nombre " +
+                ") pc ON p.sku = pc.prod " +
+                "GROUP BY p.thumbnail, p.sku, p.label;");
             tablaProductos.DataSource = productos;
             tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
-            DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
+            /*DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
             imgCol = (DataGridViewImageColumn)tablaProductos.Columns[0];
             imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            tablaProductos.ClearSelection();*/
+
+            listCategorias.ClearSelected();
             tablaProductos.ClearSelection();
         }
 
@@ -72,15 +81,59 @@ namespace PlytixPIM
         {
             if (listCategorias.SelectedItem != null)
             {
-                Consulta consulta1 = new Consulta();
 
-                var productos = consulta1.Select("SELECT thumbnail AS 'Thumbnail'," +
-                    "sku AS 'SKU'," +
-                    "label AS 'Label'," +
-                    "categoria_nombre AS 'Category' " +
-                    "FROM Producto WHERE categoria_nombre='" + listCategorias.SelectedItem.ToString() + "'");
-                tablaProductos.DataSource = productos;
-                tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                string categoriaSeleccionada = listCategorias.SelectedItem.ToString();
+
+                // Crear la consulta SQL para filtrar los productos
+                string consultaSQL = @"
+        SELECT p.thumbnail AS 'Thumbnail',
+               p.sku AS 'SKU',
+               p.label AS 'Label',
+               MAX(CASE WHEN pc.RowNum = 1 THEN pc.categoria END) AS 'Category 1',
+               MAX(CASE WHEN pc.RowNum = 2 THEN pc.categoria END) AS 'Category 2',
+               MAX(CASE WHEN pc.RowNum = 3 THEN pc.categoria END) AS 'Category 3'
+        FROM Producto p
+        JOIN (
+            SELECT pc.producto, c.nombre AS categoria, 
+                   ROW_NUMBER() OVER (PARTITION BY pc.producto ORDER BY c.nombre) AS RowNum
+            FROM ProductoCategoria pc
+            JOIN Categoria c ON pc.categoria = c.nombre
+        ) pc ON p.sku = pc.producto
+        WHERE p.sku IN (
+            SELECT pc.producto
+            FROM ProductoCategoria pc
+            JOIN Categoria c ON pc.categoria = c.nombre
+            WHERE c.nombre = '" + categoriaSeleccionada + @"'
+        )
+        GROUP BY p.thumbnail, p.sku, p.label;
+    ";
+
+                // Ejecutar la consulta y actualizar el DataGridView
+                Consulta consulta = new Consulta();
+                var productosFiltrados = consulta.Select(consultaSQL);
+                /*string consultaSQL = $@"
+                    SELECT p.thumbnail AS 'Thumbnail',
+                           p.sku AS 'SKU',
+                           p.label AS 'Label',
+                           MAX(CASE WHEN pc.RowNum = 1 THEN pc.cat END) AS 'Category 1',
+                           MAX(CASE WHEN pc.RowNum = 2 THEN pc.cat END) AS 'Category 2',
+                           MAX(CASE WHEN pc.RowNum = 3 THEN pc.cat END) AS 'Category 3'
+                    FROM Producto p
+                    JOIN (
+                        SELECT pc.producto as prod, c.nombre as cat, 
+                               ROW_NUMBER() OVER (PARTITION BY pc.producto ORDER BY c.nombre) AS RowNum
+                        FROM ProductoCategoria pc
+                        JOIN Categoria c ON pc.categoria = c.nombre
+                        WHERE c.nombre = '{categoriaSeleccionada}'
+                    ) pc ON p.sku = pc.prod
+                    GROUP BY p.thumbnail, p.sku, p.label;";
+
+                // Ejecutar la consulta y actualizar el DataGridView
+                Consulta consulta = new Consulta();
+                var productosFiltrados = consulta.Select(consultaSQL);*/
+
+                tablaProductos.DataSource = productosFiltrados;
+                tablaProductos.ClearSelection();
 
                 DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
                 imgCol = (DataGridViewImageColumn)tablaProductos.Columns[0];
@@ -88,19 +141,8 @@ namespace PlytixPIM
             }
             else
             {
-                Consulta consulta1 = new Consulta();
-                var productos = consulta1.Select("SELECT thumbnail AS 'Thumbnail'," +
-                    "sku AS 'SKU'," +
-                    "label AS 'Label'," +
-                    "categoria_nombre AS 'Category' " +
-                    "FROM Producto");
-                tablaProductos.DataSource = productos;
-                tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-                DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
-                imgCol = (DataGridViewImageColumn)tablaProductos.Columns[0];
-                imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom;
+                this.Csv_Load(sender, e);
             }
-            listCategorias.ClearSelected();
         }
 
         private void bGenerate_Click(object sender, EventArgs e)

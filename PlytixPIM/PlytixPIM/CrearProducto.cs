@@ -13,12 +13,9 @@ namespace PlytixPIM
 {
     public partial class CrearProducto : Form
     {
-        private Consulta consulta;
-
         public CrearProducto()
         {
             InitializeComponent();
-            consulta = new Consulta();
         }
 
         private void CrearProducto_Load(object sender, EventArgs e)
@@ -99,27 +96,30 @@ namespace PlytixPIM
             }
             
                 
-            if (listaCategorias.SelectedItems.Count == 0)
+            if (listaCategorias.CheckedItems.Count == 0)
             {
-                MessageBox.Show("Por favor, rellene todos los campos antes de continuar.", "Campos vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Por favor, seleccione como mínimo una categoría.", "Campos vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            
-            string categoria = listaCategorias.SelectedItem.ToString();
 
             //byte[] img = GetImageBytes();
 
             // falta meter el thumbnail tambien
 
-            if (string.IsNullOrEmpty(label) || string.IsNullOrEmpty(sku) || string.IsNullOrEmpty(gtin))
+            else if (string.IsNullOrEmpty(label) || string.IsNullOrEmpty(sku) || string.IsNullOrEmpty(gtin))
             {
                 // Mostrar mensaje de error
                 MessageBox.Show("Por favor, rellene todos los campos antes de continuar.", "Campos vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
             }
             else
             {
-                
-                consulta.Insert("INSERT INTO Producto (label, sku, gtin,categoria_nombre) VALUES ('" + label + "', '" + sku + "', '" + gtin + "','" + categoria + "')");
+                Consulta consulta = new Consulta();
+                consulta.Insert("INSERT INTO Producto (label, sku, gtin) VALUES ('" + label + "', '" + sku + "', '" + gtin + "')");
+
+                foreach (var categoria in listaCategorias.CheckedItems)
+                {
+                    Consulta c4 = new Consulta();
+                    c4.Insert("INSERT INTO ProductoCategoria VALUES (" + sku + ", '" + categoria.ToString() + "');");
+                }
 
                 Consulta c2 = new Consulta();
                 List<Object[]> lista = c2.SelectEscalar("SELECT nombre FROM Atributo ORDER BY fecha_creacion");
@@ -144,12 +144,10 @@ namespace PlytixPIM
                     string valor = textboxes[i].Text;
                     c3.Insert("INSERT INTO ValorAtributo (producto_sku, atributo_nombre, valor) VALUES ('" + sku + "', '" + atributos[i] + "', '" + valor + "')");
                 }
+                Productos productos = new Productos();
+                productos.Show();
+                this.Hide();
             }
-
-
-            Productos productos = new Productos();
-            productos.Show();
-            this.Hide();
         }
 
         private void bBack_Click_1(object sender, EventArgs e)

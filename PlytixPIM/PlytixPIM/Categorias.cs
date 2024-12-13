@@ -23,31 +23,18 @@ namespace PlytixPIM
 
         private void Categorias_Load(object sender, EventArgs e)
         {
-
             Consulta consulta = new Consulta();
             string query = @"
-        SELECT 
-            Categoria.nombre AS 'Category',
-            COUNT(Producto.sku) AS 'Number of products'
-        FROM 
-            Categoria
-        LEFT JOIN 
-            Producto 
-        ON 
-            Categoria.nombre = Producto.categoria_nombre
-        GROUP BY 
-            Categoria.nombre
-        ORDER BY 
-            Categoria.fecha_creacion;";
+            SELECT Categoria.nombre AS 'Category', COUNT(Producto.sku) AS 'Number of products'
+            FROM Categoria
+            LEFT JOIN Producto ON Categoria.nombre = Producto.categoria_nombre
+            GROUP BY Categoria.nombre
+            ORDER BY Categoria.fecha_creacion;";
 
             DataTable res = consulta.Select(query);
-
             tablaCategorias.DataSource = res;
-
             tablaCategorias.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
-
-
+            tablaCategorias.ClearSelection();
         }
 
         private void Categorias_FormClosing(object sender, FormClosingEventArgs e)
@@ -58,9 +45,7 @@ namespace PlytixPIM
         private void bBack_Click(object sender, EventArgs e)
         {
             Inicio incio = new Inicio();
-
             incio.Show();
-
             this.Hide();
         }
 
@@ -70,7 +55,6 @@ namespace PlytixPIM
             if(tablaCategorias.Rows.Count < 3)
             {
                 CrearCategoria crearCategoria = new CrearCategoria();
-
                 crearCategoria.Show();
                 this.Hide();
             }
@@ -78,11 +62,6 @@ namespace PlytixPIM
             {
                 MessageBox.Show("No puedes añadir más de 3 categorias en el plan gratuito");
             }
-
-
-
-
-            
         }
 
         private void bDeleteCategory_Click(object sender, EventArgs e)
@@ -96,9 +75,9 @@ namespace PlytixPIM
 
                         DialogResult resultado = MessageBox.Show(
                         "¿Quieres continuar? Vas a borrar una categoria con productos asociados", // Mensaje
-                        "Confirmación",         // Título de la ventana
-                        MessageBoxButtons.YesNo, // Botones disponibles
-                        MessageBoxIcon.Question // Icono que se muestra
+                        "Confirmación",                                                           // Título de la ventana
+                        MessageBoxButtons.YesNo,                                                  // Botones disponibles
+                        MessageBoxIcon.Question                                                   // Icono que se muestra
                         );
 
                     if (resultado == DialogResult.Yes)
@@ -126,19 +105,7 @@ namespace PlytixPIM
                     c2.Delete("DELETE FROM Categoria WHERE nombre='" + nombre + "'");
                     this.Categorias_Load(sender, e);
                 }
-                
-                
-                
-
-
-
-
             }
-
-
-
         }
-
-       
     }
 }

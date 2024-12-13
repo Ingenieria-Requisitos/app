@@ -53,7 +53,7 @@
             // 
             this.bBack.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bBack.Location = new System.Drawing.Point(37, 46);
-            this.bBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bBack.Margin = new System.Windows.Forms.Padding(2);
             this.bBack.Name = "bBack";
             this.bBack.Size = new System.Drawing.Size(74, 24);
             this.bBack.TabIndex = 10;
@@ -78,7 +78,7 @@
             this.listCategorias.FormattingEnabled = true;
             this.listCategorias.ItemHeight = 25;
             this.listCategorias.Location = new System.Drawing.Point(98, 288);
-            this.listCategorias.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listCategorias.Margin = new System.Windows.Forms.Padding(2);
             this.listCategorias.Name = "listCategorias";
             this.listCategorias.Size = new System.Drawing.Size(249, 129);
             this.listCategorias.TabIndex = 12;
@@ -89,20 +89,20 @@
             this.tablaProductos.AllowUserToAddRows = false;
             this.tablaProductos.AllowUserToDeleteRows = false;
             this.tablaProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tablaProductos.Location = new System.Drawing.Point(554, 181);
-            this.tablaProductos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tablaProductos.Location = new System.Drawing.Point(468, 181);
+            this.tablaProductos.Margin = new System.Windows.Forms.Padding(2);
             this.tablaProductos.Name = "tablaProductos";
             this.tablaProductos.ReadOnly = true;
             this.tablaProductos.RowHeadersWidth = 51;
             this.tablaProductos.RowTemplate.Height = 24;
             this.tablaProductos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.tablaProductos.Size = new System.Drawing.Size(519, 304);
+            this.tablaProductos.Size = new System.Drawing.Size(605, 304);
             this.tablaProductos.TabIndex = 13;
             // 
             // bClear
             // 
             this.bClear.Location = new System.Drawing.Point(179, 449);
-            this.bClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bClear.Margin = new System.Windows.Forms.Padding(2);
             this.bClear.Name = "bClear";
             this.bClear.Size = new System.Drawing.Size(82, 36);
             this.bClear.TabIndex = 14;
@@ -113,7 +113,7 @@
             // bGenerate
             // 
             this.bGenerate.Location = new System.Drawing.Point(959, 538);
-            this.bGenerate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bGenerate.Margin = new System.Windows.Forms.Padding(2);
             this.bGenerate.Name = "bGenerate";
             this.bGenerate.Size = new System.Drawing.Size(82, 36);
             this.bGenerate.TabIndex = 15;
@@ -133,7 +133,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.bBack);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Csv";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Csv";

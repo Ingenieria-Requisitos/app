@@ -149,15 +149,17 @@ namespace PlytixPIM
         {
             if (tablaProductos.SelectedRows.Count > 0) { 
                 
-                Consulta consulta1 = new Consulta();
                 int skuBorrar = int.Parse(tablaProductos.SelectedRows[0].Cells["SKU"].Value.ToString());
 
+                Consulta c1 = new Consulta();
+                c1.Delete("DELETE FROM ValorAtributo WHERE producto_sku=" + skuBorrar);
+
                 Consulta c2 = new Consulta();
-                c2.Delete("DELETE FROM ValorAtributo WHERE producto_sku=" + skuBorrar);
+                c2.Delete("DELETE FROM ProductoCategoria WHERE producto = " + skuBorrar);
 
-                consulta1.Delete("DELETE FROM Producto WHERE sku=" + skuBorrar);
+                Consulta c3 = new Consulta();
+                c3.Delete("DELETE FROM Producto WHERE sku=" + skuBorrar);
                
-
                 this.Productos_Load(sender, e);
             }
 

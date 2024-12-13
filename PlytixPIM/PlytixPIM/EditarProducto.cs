@@ -12,7 +12,7 @@ namespace PlytixPIM
 {
     public partial class EditarProducto : Form
     {
-
+        private List<String> categoriasIniciales;
 
         private int sku;
         public EditarProducto(int sku)
@@ -122,16 +122,46 @@ namespace PlytixPIM
             string gtin = gtinBox.Text;
             if (gtin.Length != 14)
             {
-                MessageBox.Show("El GTIN debe tener 14 dígitos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("El GTIN debe tener 14 dígitos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            string categoria = listaCategorias.SelectedItem.ToString();
+
+            var categoriasNuevas = listaCategorias.CheckedItems;
+            if (categoriasNuevas.Count == 0)
+            {
+                MessageBox.Show("Por favor, seleccione como mínimo una categoría.", "Campos vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+           if (string.IsNullOrEmpty(label) || string.IsNullOrEmpty(skuNuevo.ToString()) || string.IsNullOrEmpty(gtin))
+            {
+                MessageBox.Show("Por favor, rellene todos los campos antes de continuar.", "Campos vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             int aux = this.sku;
 
             Consulta consulta3 = new Consulta();
+            consulta3.Update("UPDATE Producto SET label='" + label + "',sku=" + skuNuevo + ",gtin= " + gtin + " WHERE sku=" + aux);
 
-            consulta3.Update("UPDATE Producto SET label='" + label + "',sku=" + skuNuevo + ",gtin=" + gtin + ",categoria_nombre='" + categoria + "' WHERE sku=" + aux);
-            
+            var listaGeneral = listaCategorias.Items;
+            for (int i = 0; i < listaGeneral.Count; i++)
+            {
+                int indexInicial = -1;
+                int indexNueva = -1;
+                for (int j = 0; j < categoriasIniciales.Count; j++)
+                    if (listaGeneral[i].ToString() == categoriasIniciales[j].ToString())
+                        indexInicial = j;
+                for (int j = 0; j < categoriasNuevas.Count; j++)
+                    if (listaGeneral[i].ToString() == categoriasNuevas[j].ToString())
+                        indexNueva = j;
+                Consulta c4 = new Consulta();
+                if (indexInicial < 0 && indexNueva >= 0)
+                    c4.Insert("INSERT INTO ProductoCategoria VALUES (" + skuNuevo + ", '" + categoriasNuevas[indexNueva] + "');");
+                else if (indexInicial >= 0 && indexNueva < 0)
+                    c4.Delete("DELETE FROM ProductoCategoria " +
+                        "WHERE producto = " + skuNuevo + " AND categoria = '" + categoriasIniciales[indexInicial] + "';");
+            }
 
             Consulta c6 = new Consulta();
             int numAtributos = int.Parse(c6.SelectEscalar("SELECT COUNT(*) FROM Atributo")[0][0].ToString());
@@ -152,41 +182,22 @@ namespace PlytixPIM
             textboxes.Add(texta5);
 
             
-
-
             for (int i=0; i < numAtributos; i++)
             {
-                
                 Consulta c8 = new Consulta();
-
                 int veces = int.Parse(c8.SelectEscalar("SELECT COUNT(*) FROM ValorAtributo WHERE producto_sku=" + aux +" AND atributo_nombre = '" + labels[i].Text + "'")[0][0].ToString());
                 string atributo = textboxes[i].Text;
-
                 if (veces > 0)
                 {
-
-
-
-
                     Consulta c7 = new Consulta();
-
                     c7.Update("UPDATE ValorAtributo SET valor='" + atributo + "', producto_sku = "+ skuNuevo + " WHERE producto_sku=" + aux + " AND atributo_nombre='" + labels[i].Text +"'");
-
                 }
                 else
                 {
                     Consulta c9 = new Consulta();
-
                     c9.Insert("INSERT INTO ValorAtributo (producto_sku, atributo_nombre, valor) VALUES (" + skuNuevo + ", '" + labels[i].Text + "', '" + atributo + "')");
-
                 }
-
             }
-
-
-
-
-
             Productos productos = new Productos();
             productos.Show();
             this.Hide();
@@ -228,22 +239,28 @@ namespace PlytixPIM
 
             Consulta consulta3 = new Consulta();
 
-            DataTable res2 = consulta3.Select("SELECT gtin,label,categoria_nombre FROM Producto WHERE sku=" + this.sku);
-
-            string categoria = "";
-
+            DataTable res2 = consulta3.Select("SELECT gtin,label FROM Producto WHERE sku=" + this.sku + ";");
             foreach(DataRow fila in res2.Rows)
             {
                 labelBox.Text = fila["label"].ToString();
                 gtinBox.Text = fila["gtin"].ToString();
                 skuBox.Text = sku.ToString();
                 label1.Focus();
-                categoria = fila["categoria_nombre"].ToString();
             }
 
-            if (!string.IsNullOrEmpty(categoria))
+            categoriasIniciales = new List<string>();
+            Consulta c4 = new Consulta();
+            DataTable categorias = c4.Select("SELECT categoria FROM ProductoCategoria WHERE producto = " + this.sku);
+            for (int i = 0; i < 3; i++)
             {
-                listaCategorias.SelectedItem = categoria;
+                foreach (DataRow categ in categorias.Rows)
+                {
+                    if (listaCategorias.Items[i].ToString() == categ["categoria"].ToString())
+                    {
+                        listaCategorias.SetItemChecked(i, true);
+                        categoriasIniciales.Add(categ["categoria"].ToString());
+                    }
+                }
             }
 
             Consulta c6 = new Consulta();
