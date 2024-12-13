@@ -84,3 +84,45 @@ C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Csv.resources
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Cuenta.resources
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Relacion.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\PlytixPIM.exe.config
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\PlytixPIM.exe
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\PlytixPIM.pdb
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Buffers.dll
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.IO.Pipelines.dll
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Memory.dll
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Text.Json.dll
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.ValueTuple.dll
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Buffers.xml
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.IO.Pipelines.xml
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Memory.xml
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Text.Json.xml
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\bin\Debug\System.ValueTuple.xml
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.csproj.AssemblyReference.cache
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Atributos.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Categorias.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearAtributo.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearCategoria.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearProducto.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Csv.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Cuenta.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.EditarAtributo.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.EditarProducto.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Inicio.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Productos.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Properties.Resources.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Relacion.resources
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.csproj.GenerateResource.cache
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.csproj.CoreCompileInputs.cache
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.csproj.Up2Date
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.exe
+C:\Users\pablo\OneDrive\Escritorio\Uni\3º\Requisitos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.pdb

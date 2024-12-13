@@ -52,6 +52,7 @@ namespace PlytixPIM
             DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
             imgCol = (DataGridViewImageColumn)tablaProductos.Columns[0];
             imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            tablaProductos.ClearSelection();
         }
 
         private void Csv_FormClosing(object sender, FormClosingEventArgs e)
@@ -98,22 +99,28 @@ namespace PlytixPIM
                 DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
                 imgCol = (DataGridViewImageColumn)tablaProductos.Columns[0];
                 imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom;
-            }    
+            }
+            listCategorias.ClearSelected();
         }
 
         private void bGenerate_Click(object sender, EventArgs e)
         {
-        /*    try
+            if (tablaProductos.Rows.Count == 0)
+            {
+                MessageBox.Show($"No hay ningun producto en la lista.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            try
             {
                 // Ruta donde se generará el archivo CSV
-                string filePath = "productos.csv";
+                string filePath = "temp.csv";
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
 
 
 
                     // Escribir cabecera
-                    writer.WriteLine("Amazon -> Atributos en la app");
+                    writer.WriteLine("Amazon -> Atributos en la app\n");
 
                     List<Object[]> productos = new List<Object[]>();
                     if (listCategorias.SelectedItem != null)
@@ -140,42 +147,62 @@ namespace PlytixPIM
                     string cuenta = c1.SelectEscalar("SELECT nombre FROM Cuenta")[0][0].ToString();
 
 
+                    Consulta c2 = new Consulta();
+                    DataTable resp = c2.Select("SELECT nombre FROM Atributo WHERE Tipo IN ('Real', 'Entero') ORDER BY fecha_creacion;");
+
+                    if (resp.Rows.Count < 1)
+                    {
+                        MessageBox.Show($"No tiene ningun atributo de tipo entero o real. No se puede generar el CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        File.Delete(filePath);
+                        return;
+                    }
+                    string atributo = resp.Rows[0]["nombre"].ToString();
+
+
+                    // Buscar el primer atributo de tipo float o int
                     foreach (Object[] producto in productos)
                     {
                         string gtin = producto[0].ToString();
                         string sku = producto[1].ToString();
                         string label = producto[2].ToString();
-                        // Buscar el primer atributo de tipo float o int
-                        var atributoNumerico = producto.Atributos
-                            .FirstOrDefault(attr => attr.Value is float || attr.Value is int);
 
-
-
-                        // Si no hay atributo numérico, mostrar mensaje de error y salir
-                        if (atributoNumerico.Value == null)
+                        Consulta c4 = new Consulta();
+                        var atributoNum = c4.Select("SELECT valor FROM ValorAtributo WHERE producto_sku = " + sku + " AND atributo_nombre = '" + atributo + "' AND valor <> ''");
+                        if (atributoNum.Rows.Count == 0)
                         {
-                            MessageBox.Show($"El producto con SKU '{sku}' no tiene atributos numéricos. No se puede generar el CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show($"El producto \"" + label + "\" no tiene valor definido para el atributo \"" + atributo + "\". " +
+                                "No se puede generar el CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            writer.Close();
+                            File.Delete(filePath);
                             return;
                         }
 
+                        string precio = atributoNum.Rows[0]["valor"].ToString();
+
                         // Preparar fila
-                        string fila = $"{sku}," +
-                                      $"{label}," +
-                                      $"{cuenta}," +
-                                      $"{gtin}," +
-                                      $"{atributoNumerico.Value}," +
-                                      $"False";
+                        string fila = $"SKU -> {sku}\n" +
+                                      $"Title -> {label}\n" +
+                                      $"Fulfilled By -> {cuenta}\n" +
+                                      $"Amazon_SKU -> {gtin}\n" +
+                                      $"Price -> {precio}\n" +
+                                      $"Offer Primer -> False\n";
 
                         writer.WriteLine(fila);
                     }
+                    writer.Close();
                 }
+
+                string finalPath = "productos.csv";
+                string contenido = File.ReadAllText(filePath);
+                File.WriteAllText(finalPath, contenido);
+                File.Delete(filePath);
 
                 MessageBox.Show("Archivo CSV generado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }*/
+            }
         }
     }
 }

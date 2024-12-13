@@ -63,8 +63,6 @@ namespace PlytixPIM
                     "GROUP BY p.thumbnail, p.sku, p.label;"
                 );
                 tablaProductos.DataSource = productos;
-                tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
 
             }
             else if(numAtributos == 2)
@@ -85,7 +83,6 @@ namespace PlytixPIM
                     "GROUP BY p.thumbnail, p.sku, p.label;"
                 );
                 tablaProductos.DataSource = productos2;
-                tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
             }
             else if(numAtributos == 1)
@@ -103,10 +100,10 @@ namespace PlytixPIM
                     "GROUP BY p.thumbnail, p.sku, p.label;"
                 );
                 tablaProductos.DataSource = productos3;
-                tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
             }
-            
+            tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            tablaProductos.ClearSelection();
 
             
         
@@ -154,15 +151,6 @@ namespace PlytixPIM
                 
                 Consulta consulta1 = new Consulta();
                 int skuBorrar = int.Parse(tablaProductos.SelectedRows[0].Cells["SKU"].Value.ToString());
-
-
-                /*if (tablaProductos.SelectedRows[0].Cells["Category"].Value.ToString() != null)
-                {
-                    Consulta consulta2 = new Consulta();
-
-                    consulta2.Delete("DELETE FROM ValorAtributo WHERE producto_sku ='" + skuBorrar + "'");
-                }*/
-
 
                 Consulta c2 = new Consulta();
                 c2.Delete("DELETE FROM ValorAtributo WHERE producto_sku=" + skuBorrar);

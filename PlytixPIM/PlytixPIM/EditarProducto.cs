@@ -237,6 +237,7 @@ namespace PlytixPIM
                 labelBox.Text = fila["label"].ToString();
                 gtinBox.Text = fila["gtin"].ToString();
                 skuBox.Text = sku.ToString();
+                label1.Focus();
                 categoria = fila["categoria_nombre"].ToString();
             }
 

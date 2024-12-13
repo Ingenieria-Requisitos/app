@@ -42,6 +42,7 @@ namespace PlytixPIM
             var atributos = consulta.Select("SELECT nombre as ATTRIBUTE, tipo AS TYPE FROM Atributo ORDER BY fecha_creacion");
             tablaAtributos.DataSource = atributos;
             tablaAtributos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            tablaAtributos.ClearSelection();
         }
 
         private void bAddAttribute_Click(object sender, EventArgs e)

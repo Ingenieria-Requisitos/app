@@ -99,7 +99,10 @@ namespace PlytixPIM
             }
             
                 
-
+            if (listaCategorias.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Por favor, rellene todos los campos antes de continuar.", "Campos vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             
             string categoria = listaCategorias.SelectedItem.ToString();
 
@@ -141,8 +144,6 @@ namespace PlytixPIM
                     string valor = textboxes[i].Text;
                     c3.Insert("INSERT INTO ValorAtributo (producto_sku, atributo_nombre, valor) VALUES ('" + sku + "', '" + atributos[i] + "', '" + valor + "')");
                 }
-            
-            
             }
 
 
