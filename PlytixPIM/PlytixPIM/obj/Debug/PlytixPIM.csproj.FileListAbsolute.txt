@@ -65,3 +65,22 @@ C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPI
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearProducto.resources
 C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearProducto.resources
 C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.EditarProducto.resources
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.Text.Json.dll
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.ValueTuple.dll
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.Buffers.xml
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.Memory.xml
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.Text.Json.xml
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\bin\Debug\System.ValueTuple.xml
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Csv.resources
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Cuenta.resources
+C:\Users\Usuario\Documents\UMA\3\1CUATRIMESTRE\ING-REQUISITOS\Plytix APP\Github-Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.Relacion.resources

@@ -36,27 +36,79 @@ namespace PlytixPIM
           
             Consulta consulta = new Consulta();
             DataTable res = consulta.Select("SELECT Nombre FROM Atributo ORDER BY fecha_creacion");
-            String atributo1 = res.Rows[0]["Nombre"].ToString();
-            String atributo2 = res.Rows[1]["Nombre"].ToString();
-            String atributo3 = res.Rows[2]["Nombre"].ToString();
+
+            String atributo1 = null;
+            String atributo2 = null;
+            String atributo3 = null;
+
+
+            int numAtributos = res.Rows.Count;
+            if (numAtributos >= 3)
+            {
+
+                atributo1 = res.Rows[0]["Nombre"].ToString();
+                atributo2 = res.Rows[1]["Nombre"].ToString();
+                atributo3 = res.Rows[2]["Nombre"].ToString();
+                Consulta consulta1 = new Consulta();
+                var productos = consulta1.Select(
+                    "SELECT p.thumbnail as thumbnail," +
+                    "       p.sku AS sku, " +
+                    "       p.label AS Nombre, " +
+                    "       MAX(CASE WHEN a.Nombre = '" + atributo1 + "' THEN va.valor END) AS " + atributo1 + ", " +
+                    "       MAX(CASE WHEN a.Nombre = '" + atributo2 + "' THEN va.valor END) AS " + atributo2 + ", " +
+                    "       MAX(CASE WHEN a.Nombre = '" + atributo3 + "' THEN va.valor END) AS " + atributo3 + " " +
+                    "FROM Producto p " +
+                    "LEFT JOIN ValorAtributo va ON p.sku = va.producto_sku " +
+                    "LEFT JOIN Atributo a ON va.atributo_nombre = a.nombre " +
+                    "GROUP BY p.thumbnail, p.sku, p.label;"
+                );
+                tablaProductos.DataSource = productos;
+                tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+
+            }
+            else if(numAtributos == 2)
+            {
+                atributo1 = res.Rows[0]["Nombre"].ToString();
+                atributo2 = res.Rows[1]["Nombre"].ToString();
+
+                Consulta consulta4 = new Consulta();
+                var productos2 = consulta4.Select(
+                    "SELECT p.thumbnail as thumbnail," +
+                    "       p.sku AS sku, " +
+                    "       p.label AS Nombre, " +
+                    "       MAX(CASE WHEN a.Nombre = '" + atributo1 + "' THEN va.valor END) AS " + atributo1 + ", " +
+                    "       MAX(CASE WHEN a.Nombre = '" + atributo2 + "' THEN va.valor END) AS " + atributo2 + " " +
+                    "FROM Producto p " +
+                    "LEFT JOIN ValorAtributo va ON p.sku = va.producto_sku " +
+                    "LEFT JOIN Atributo a ON va.atributo_nombre = a.nombre " +
+                    "GROUP BY p.thumbnail, p.sku, p.label;"
+                );
+                tablaProductos.DataSource = productos2;
+                tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+            }
+            else if(numAtributos == 1)
+            {
+                atributo1 = res.Rows[0]["Nombre"].ToString();
+                Consulta consulta5 = new Consulta();
+                var productos3 = consulta5.Select(
+                    "SELECT p.thumbnail as thumbnail," +
+                    "       p.sku AS sku, " +
+                    "       p.label AS Nombre, " +
+                    "       MAX(CASE WHEN a.Nombre = '" + atributo1 + "' THEN va.valor END) AS " + atributo1 + " " +
+                    "FROM Producto p " +
+                    "LEFT JOIN ValorAtributo va ON p.sku = va.producto_sku " +
+                    "LEFT JOIN Atributo a ON va.atributo_nombre = a.nombre " +
+                    "GROUP BY p.thumbnail, p.sku, p.label;"
+                );
+                tablaProductos.DataSource = productos3;
+                tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+            }
             
 
-
-            Consulta consulta1 = new Consulta();
-            var productos = consulta1.Select(
-                "SELECT p.thumbnail as thumbnail," +
-                "       p.sku AS sku, " +
-                "       p.label AS Nombre, " +
-                "       MAX(CASE WHEN a.Nombre = '" + atributo1 + "' THEN va.valor END) AS " + atributo1 + ", " +
-                "       MAX(CASE WHEN a.Nombre = '" + atributo2 + "' THEN va.valor END) AS " + atributo2 + ", " +
-                "       MAX(CASE WHEN a.Nombre = '" + atributo3 + "' THEN va.valor END) AS " + atributo3 + " " +
-                "FROM Producto p " +
-                "LEFT JOIN ValorAtributo va ON p.sku = va.producto_sku " +
-                "LEFT JOIN Atributo a ON va.atributo_nombre = a.nombre " +
-                "GROUP BY p.thumbnail, p.sku, p.label;"
-            );
-            tablaProductos.DataSource = productos;
-            tablaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            
         
             /*Consulta consulta = new Consulta();
             var productos = consulta.Select("SELECT thumbnail AS 'Thumbnail'," +

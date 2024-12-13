@@ -62,7 +62,7 @@ namespace PlytixPIM
                 string name = (tablaAtributos.SelectedRows[0].Cells["ATTRIBUTE"].Value.ToString());
                 
                 Consulta c3 = new Consulta();
-                int numeroProductos = int.Parse(c3.SelectEscalar("SELECT COUNT(*) FROM ValorAtributo WHERE atributo_nombre='" + name + "'")[0][0].ToString());
+                int numeroProductos = int.Parse(c3.SelectEscalar("SELECT COUNT(*) FROM ValorAtributo WHERE atributo_nombre='" + name + "' AND valor <> ''")[0][0].ToString());
 
                 if(numeroProductos > 0)
                 {

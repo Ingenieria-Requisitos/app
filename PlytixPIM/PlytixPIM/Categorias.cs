@@ -38,7 +38,7 @@ namespace PlytixPIM
         GROUP BY 
             Categoria.nombre
         ORDER BY 
-            Categoria.nombre;";
+            Categoria.fecha_creacion;";
 
             DataTable res = consulta.Select(query);
 
@@ -66,10 +66,23 @@ namespace PlytixPIM
 
         private void bAddCategory_Click(object sender, EventArgs e)
         {
-            CrearCategoria crearCategoria = new CrearCategoria();
+            
+            if(tablaCategorias.Rows.Count < 3)
+            {
+                CrearCategoria crearCategoria = new CrearCategoria();
 
-            crearCategoria.Show();
-            this.Hide();
+                crearCategoria.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("No puedes añadir más de 3 categorias en el plan gratuito");
+            }
+
+
+
+
+            
         }
 
         private void bDeleteCategory_Click(object sender, EventArgs e)
@@ -106,6 +119,12 @@ namespace PlytixPIM
                     {
                         return;
                     }
+                }
+                else
+                {
+                    Consulta c2 = new Consulta();
+                    c2.Delete("DELETE FROM Categoria WHERE nombre='" + nombre + "'");
+                    this.Categorias_Load(sender, e);
                 }
                 
                 

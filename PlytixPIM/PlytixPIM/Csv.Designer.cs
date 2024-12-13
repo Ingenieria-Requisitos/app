@@ -34,6 +34,7 @@
             this.listCategorias = new System.Windows.Forms.ListBox();
             this.tablaProductos = new System.Windows.Forms.DataGridView();
             this.bClear = new System.Windows.Forms.Button();
+            this.bGenerate = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tablaProductos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,6 +78,7 @@
             this.listCategorias.Name = "listCategorias";
             this.listCategorias.Size = new System.Drawing.Size(331, 164);
             this.listCategorias.TabIndex = 12;
+            this.listCategorias.SelectedIndexChanged += new System.EventHandler(this.listCategorias_SelectedIndexChanged);
             // 
             // tablaProductos
             // 
@@ -101,11 +103,22 @@
             this.bClear.UseVisualStyleBackColor = true;
             this.bClear.Click += new System.EventHandler(this.bClear_Click);
             // 
+            // bGenerate
+            // 
+            this.bGenerate.Location = new System.Drawing.Point(1279, 662);
+            this.bGenerate.Name = "bGenerate";
+            this.bGenerate.Size = new System.Drawing.Size(109, 44);
+            this.bGenerate.TabIndex = 15;
+            this.bGenerate.Text = "GENERATE CSV";
+            this.bGenerate.UseVisualStyleBackColor = true;
+            this.bGenerate.Click += new System.EventHandler(this.bGenerate_Click);
+            // 
             // Csv
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1482, 753);
+            this.Controls.Add(this.bGenerate);
             this.Controls.Add(this.bClear);
             this.Controls.Add(this.tablaProductos);
             this.Controls.Add(this.listCategorias);
@@ -131,5 +144,6 @@
         private System.Windows.Forms.ListBox listCategorias;
         private System.Windows.Forms.DataGridView tablaProductos;
         private System.Windows.Forms.Button bClear;
+        private System.Windows.Forms.Button bGenerate;
     }
 }

@@ -55,6 +55,16 @@ namespace PlytixPIM
 
             consulta.Insert("INSERT INTO Atributo (nombre,tipo) VALUES ('" + nombre + "','" + tipo + "');");
 
+            Consulta bd2 = new Consulta();
+
+            List<Object[]> lista = bd2.SelectEscalar("SELECT sku FROM Producto");
+            foreach (Object[] array in lista)
+            {
+                Consulta bd1 = new Consulta();
+                bd1.Insert("INSERT INTO ValorAtributo (producto_sku, atributo_nombre, valor) VALUES (" + int.Parse(array[0].ToString()) + ",'" + nombre + "', '')");
+            }
+
+
             Atributos atributos = new Atributos();
 
             atributos.Show();

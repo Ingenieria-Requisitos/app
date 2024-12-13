@@ -35,7 +35,7 @@ namespace PlytixPIM
         {
             Consulta consulta = new Consulta();
             string nombreCategoria = textCatName.Text;
-            consulta.Insert("INSERT INTO Categoria VALUES ('" + nombreCategoria + "')");
+            consulta.Insert("INSERT INTO Categoria (nombre) VALUES ('" + nombreCategoria + "')");
 
             Categorias categorias = new Categorias();
             categorias.Show();
