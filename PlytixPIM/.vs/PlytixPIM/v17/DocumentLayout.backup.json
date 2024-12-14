@@ -1,38 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\",
+  "WorkspaceRootPath": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\plytixpim\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\ruizp\\desktop\\jose\\uni\\tercero\\requisitos\\plytix\\app\\plytixpim\\plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\pablo\\onedrive\\escritorio\\uni\\3\u00BA\\requisitos\\app\\plytixpim\\plytixpim\\editarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\editarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\pablo\\onedrive\\escritorio\\uni\\3\u00BA\\requisitos\\app\\plytixpim\\plytixpim\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\pablo\\onedrive\\escritorio\\uni\\3\u00BA\\requisitos\\app\\plytixpim\\plytixpim\\editarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\editarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\pablo\\onedrive\\escritorio\\uni\\3\u00BA\\requisitos\\app\\plytixpim\\plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\pablo\\onedrive\\escritorio\\uni\\3\u00BA\\requisitos\\app\\plytixpim\\plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\pablo\\onedrive\\escritorio\\uni\\3\u00BA\\requisitos\\app\\plytixpim\\plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\ruizp\\desktop\\jose\\uni\\tercero\\requisitos\\plytix\\app\\plytixpim\\plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,104 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Csv.cs",
-              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\Csv.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Csv.cs",
-              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\Csv.cs",
-              "RelativeToolTip": "PlytixPIM\\Csv.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAcwGgAAAAGAAAAAAAAAA==",
+              "Title": "Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Categorias.cs",
+              "ToolTip": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs",
+              "RelativeToolTip": "PlytixPIM\\Categorias.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "PlytixPIM",
-              "WhenOpened": "2024-12-12T17:17:10.529Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-12-14T12:32:03.289Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Csv.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\Csv.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Csv.cs",
-              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\Csv.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlytixPIM\\Csv.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T21:25:42.422Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EditarProducto.cs",
-              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\EditarProducto.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\EditarProducto.cs",
-              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\EditarProducto.cs",
-              "RelativeToolTip": "PlytixPIM\\EditarProducto.cs",
-              "ViewState": "AgIAAAwBAAAAAAAAAAAYwKIAAAB2AAAAAAAAAA==",
+              "Title": "Categorias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Categorias.cs",
+              "ToolTip": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\Categorias.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T20:11:10.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditarProducto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\EditarProducto.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\EditarProducto.cs",
-              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\EditarProducto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlytixPIM\\EditarProducto.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T20:10:08.461Z",
+              "WhenOpened": "2024-12-14T12:32:02.111Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\Productos.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Productos.cs",
-              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\Productos.cs",
-              "RelativeToolTip": "PlytixPIM\\Productos.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAYwJ0AAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T20:07:09.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Productos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\Productos.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Productos.cs",
-              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\Productos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlytixPIM\\Productos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T20:07:05.929Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CrearProducto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\CrearProducto.cs",
-              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlytixPIM\\CrearProducto.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T19:46:42.043Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CrearProducto.cs",
-              "DocumentMoniker": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\CrearProducto.cs",
-              "ToolTip": "C:\\Users\\pablo\\OneDrive\\Escritorio\\Uni\\3\u00BA\\Requisitos\\app\\PlytixPIM\\PlytixPIM\\CrearProducto.cs",
-              "RelativeToolTip": "PlytixPIM\\CrearProducto.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAswHEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T19:27:09.884Z",
-              "EditorCaption": ""
             }
           ]
         }

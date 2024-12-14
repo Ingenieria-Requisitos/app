@@ -25,9 +25,9 @@ namespace PlytixPIM
         {
             Consulta consulta = new Consulta();
             string query = @"
-            SELECT Categoria.nombre AS 'Category', COUNT(Producto.sku) AS 'Number of products'
+            SELECT Categoria.nombre AS 'Category', COUNT(ProductoCategoria.producto) AS 'Number of products'
             FROM Categoria
-            LEFT JOIN Producto ON Categoria.nombre = Producto.categoria_nombre
+            LEFT JOIN ProductoCategoria ON Categoria.nombre = ProductoCategoria.categoria
             GROUP BY Categoria.nombre
             ORDER BY Categoria.fecha_creacion;";
 

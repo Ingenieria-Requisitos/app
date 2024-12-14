@@ -36,18 +36,19 @@
             // 
             this.labelProducts.AutoSize = true;
             this.labelProducts.Font = new System.Drawing.Font("Arial", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelProducts.Location = new System.Drawing.Point(132, 33);
+            this.labelProducts.Location = new System.Drawing.Point(99, 27);
+            this.labelProducts.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelProducts.Name = "labelProducts";
-            this.labelProducts.Size = new System.Drawing.Size(932, 93);
+            this.labelProducts.Size = new System.Drawing.Size(750, 75);
             this.labelProducts.TabIndex = 3;
             this.labelProducts.Text = "YOUR RELATIONSHIPS";
             // 
             // bBack
             // 
-            this.bBack.Location = new System.Drawing.Point(29, 74);
-            this.bBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bBack.Location = new System.Drawing.Point(22, 60);
+            this.bBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bBack.Name = "bBack";
-            this.bBack.Size = new System.Drawing.Size(75, 23);
+            this.bBack.Size = new System.Drawing.Size(56, 19);
             this.bBack.TabIndex = 4;
             this.bBack.Text = "<- BACK";
             this.bBack.UseVisualStyleBackColor = true;
@@ -55,12 +56,14 @@
             // 
             // Relacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1483, 753);
+            this.ClientSize = new System.Drawing.Size(1112, 612);
             this.Controls.Add(this.bBack);
             this.Controls.Add(this.labelProducts);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Relacion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Relacion";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Relacion_FormClosing);
             this.Load += new System.EventHandler(this.Relacion_Load);
