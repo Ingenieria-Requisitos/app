@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,9 +14,16 @@ namespace PlytixPIM
 {
     public partial class Inicio : Form
     {
+        private Image originalImage;
+
+
         public Inicio()
         {
+
             InitializeComponent();
+            originalImage = pictureBox1.Image;
+
+
         }
 
         private void bSeeProducts_Click(object sender, EventArgs e)
@@ -38,6 +47,7 @@ namespace PlytixPIM
         private void Inicio_Load(object sender, EventArgs e)
         {
            
+
         }
 
         private void Inicio_FormClosing(object sender, FormClosingEventArgs e)
@@ -71,5 +81,24 @@ namespace PlytixPIM
 
             this.Hide();
         }
+
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+
+            pictureBox1.Image = pictureBox1.ErrorImage;
+
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.Image = originalImage;
+            
+        }
+
+
+
+        
+
+        
     }
 }
