@@ -48,10 +48,20 @@ namespace PlytixPIM
         private void bSubmit_Click(object sender, EventArgs e)
         {
             Consulta consulta = new Consulta();
-            
             string nombre = textName.Text;
+            if(textName.Text == "")
+            {
+                MessageBox.Show("Introduzca un nombre");
+                return;
+            }
 
+            if(desplegableTipo.SelectedItem == null)
+            {
+                MessageBox.Show("Seleccione un tipo");
+                return;
+            }
             string tipo = desplegableTipo.SelectedItem.ToString();
+            
 
             consulta.Insert("INSERT INTO Atributo (nombre,tipo) VALUES ('" + nombre + "','" + tipo + "');");
 

@@ -86,8 +86,9 @@ namespace PlytixPIM
 
                         Consulta consulta1 = new Consulta();
 
-                        consulta1.Update("UPDATE Producto SET categoria_nombre=NULL WHERE categoria_nombre='" + nombre + "'");
-                
+                        consulta1.Update("DELETE FROM ProductoCategoria WHERE categoria = '" + nombre + "'");
+
+
                         Consulta consulta = new Consulta();
              
                         consulta.Delete("DELETE FROM Categoria WHERE nombre='" + nombre + "'");

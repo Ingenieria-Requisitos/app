@@ -40,7 +40,7 @@
             // bBack
             // 
             this.bBack.Location = new System.Drawing.Point(27, 47);
-            this.bBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bBack.Margin = new System.Windows.Forms.Padding(2);
             this.bBack.Name = "bBack";
             this.bBack.Size = new System.Drawing.Size(56, 19);
             this.bBack.TabIndex = 1;
@@ -61,10 +61,13 @@
             // 
             // tablaAtributos
             // 
+            this.tablaAtributos.AllowUserToAddRows = false;
+            this.tablaAtributos.AllowUserToDeleteRows = false;
             this.tablaAtributos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tablaAtributos.Location = new System.Drawing.Point(202, 145);
-            this.tablaAtributos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tablaAtributos.Margin = new System.Windows.Forms.Padding(2);
             this.tablaAtributos.Name = "tablaAtributos";
+            this.tablaAtributos.ReadOnly = true;
             this.tablaAtributos.RowHeadersWidth = 51;
             this.tablaAtributos.RowTemplate.Height = 24;
             this.tablaAtributos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -75,7 +78,7 @@
             // 
             this.bAddAttribute.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bAddAttribute.Location = new System.Drawing.Point(749, 557);
-            this.bAddAttribute.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bAddAttribute.Margin = new System.Windows.Forms.Padding(2);
             this.bAddAttribute.Name = "bAddAttribute";
             this.bAddAttribute.Size = new System.Drawing.Size(98, 46);
             this.bAddAttribute.TabIndex = 4;
@@ -87,7 +90,7 @@
             // 
             this.bEditAttribute.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bEditAttribute.Location = new System.Drawing.Point(878, 557);
-            this.bEditAttribute.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bEditAttribute.Margin = new System.Windows.Forms.Padding(2);
             this.bEditAttribute.Name = "bEditAttribute";
             this.bEditAttribute.Size = new System.Drawing.Size(98, 46);
             this.bEditAttribute.TabIndex = 5;
@@ -99,7 +102,7 @@
             // 
             this.bDeleteAttribute.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bDeleteAttribute.Location = new System.Drawing.Point(1004, 557);
-            this.bDeleteAttribute.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bDeleteAttribute.Margin = new System.Windows.Forms.Padding(2);
             this.bDeleteAttribute.Name = "bDeleteAttribute";
             this.bDeleteAttribute.Size = new System.Drawing.Size(98, 46);
             this.bDeleteAttribute.TabIndex = 6;
@@ -118,7 +121,7 @@
             this.Controls.Add(this.tablaAtributos);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bBack);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Atributos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Atributos";

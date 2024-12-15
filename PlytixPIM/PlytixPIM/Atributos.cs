@@ -108,8 +108,8 @@ namespace PlytixPIM
             if (tablaAtributos.SelectedRows.Count > 0)
             {
                 
-                string name = tablaAtributos.SelectedRows[0].Cells["nombre"].Value.ToString();
-                string type = tablaAtributos.SelectedRows[0].Cells["tipo"].Value.ToString();
+                string name = tablaAtributos.SelectedRows[0].Cells["ATTRIBUTE"].Value.ToString();
+                string type = tablaAtributos.SelectedRows[0].Cells["TYPE"].Value.ToString();
 
 
                 EditarAtributo editarAtributo = new EditarAtributo(name,type);

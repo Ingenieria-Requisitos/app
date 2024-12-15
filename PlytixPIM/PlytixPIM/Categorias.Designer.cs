@@ -49,10 +49,13 @@
             // 
             // tablaCategorias
             // 
+            this.tablaCategorias.AllowUserToAddRows = false;
+            this.tablaCategorias.AllowUserToDeleteRows = false;
             this.tablaCategorias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tablaCategorias.Location = new System.Drawing.Point(230, 142);
-            this.tablaCategorias.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tablaCategorias.Margin = new System.Windows.Forms.Padding(2);
             this.tablaCategorias.Name = "tablaCategorias";
+            this.tablaCategorias.ReadOnly = true;
             this.tablaCategorias.RowHeadersWidth = 51;
             this.tablaCategorias.RowTemplate.Height = 24;
             this.tablaCategorias.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -62,7 +65,7 @@
             // bAddCategory
             // 
             this.bAddCategory.Location = new System.Drawing.Point(797, 532);
-            this.bAddCategory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bAddCategory.Margin = new System.Windows.Forms.Padding(2);
             this.bAddCategory.Name = "bAddCategory";
             this.bAddCategory.Size = new System.Drawing.Size(140, 57);
             this.bAddCategory.TabIndex = 2;
@@ -73,7 +76,7 @@
             // bBack
             // 
             this.bBack.Location = new System.Drawing.Point(20, 52);
-            this.bBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bBack.Margin = new System.Windows.Forms.Padding(2);
             this.bBack.Name = "bBack";
             this.bBack.Size = new System.Drawing.Size(62, 24);
             this.bBack.TabIndex = 4;
@@ -84,7 +87,7 @@
             // bDeleteCategory
             // 
             this.bDeleteCategory.Location = new System.Drawing.Point(963, 532);
-            this.bDeleteCategory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bDeleteCategory.Margin = new System.Windows.Forms.Padding(2);
             this.bDeleteCategory.Name = "bDeleteCategory";
             this.bDeleteCategory.Size = new System.Drawing.Size(140, 57);
             this.bDeleteCategory.TabIndex = 5;
@@ -103,7 +106,7 @@
             this.Controls.Add(this.bAddCategory);
             this.Controls.Add(this.tablaCategorias);
             this.Controls.Add(this.labelCategories);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Categorias";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Categorias";

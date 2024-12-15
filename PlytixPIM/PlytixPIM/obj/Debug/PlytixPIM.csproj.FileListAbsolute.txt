@@ -190,3 +190,4 @@ C:\Users\Lucia\Source\Repos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.csproj.U
 C:\Users\Lucia\Source\Repos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.exe
 C:\Users\Lucia\Source\Repos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.pdb
 C:\Users\Lucia\Source\Repos\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearRelacion.resources
+C:\Users\ruizp\Desktop\Jose\uni\tercero\Requisitos\Plytix\app\PlytixPIM\PlytixPIM\obj\Debug\PlytixPIM.CrearRelacion.resources

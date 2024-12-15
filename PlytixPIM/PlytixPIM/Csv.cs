@@ -162,7 +162,7 @@ namespace PlytixPIM
 
 
                     // Escribir cabecera
-                    writer.WriteLine("SKU,Title,FullfilledBy,Amazon_SKU,Price,OfferPrimer\n");
+                    writer.WriteLine("SKU,Title,FullfilledBy,Amazon_SKU,Price,OfferPrimer");
 
                     List<Object[]> productos = new List<Object[]>();
                     if (listCategorias.SelectedItem != null)
@@ -213,23 +213,19 @@ namespace PlytixPIM
                         if (atributoNum.Rows.Count == 0)
                         {
                             MessageBox.Show($"El producto \"" + label + "\" no tiene valor definido para el atributo \"" + atributo + "\". " +
-                                "No se puede generar el CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            writer.Close();
-                            File.Delete(filePath);
-                            return;
+                                "No se incluirá en el CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
+                        else
+                        {
+                            string precio = atributoNum.Rows[0]["valor"].ToString();
 
-                        string precio = atributoNum.Rows[0]["valor"].ToString();
+                            // Preparar fila
+                            string fila = $"{sku},{label},{cuenta},{gtin},{precio},False\n";
+                             writer.WriteLine(fila);
+                        }
+                        
 
-                        // Preparar fila
-                        string fila = $"SKU -> {sku}\n" +
-                                      $"Title -> {label}\n" +
-                                      $"Fulfilled By -> {cuenta}\n" +
-                                      $"Amazon_SKU -> {gtin}\n" +
-                                      $"Price -> {precio}\n" +
-                                      $"Offer Primer -> False\n";
-
-                        writer.WriteLine(fila);
+                        
                     }
                     writer.Close();
                 }

@@ -69,10 +69,13 @@
             // 
             // tablaRelaciones
             // 
+            this.tablaRelaciones.AllowUserToAddRows = false;
+            this.tablaRelaciones.AllowUserToDeleteRows = false;
             this.tablaRelaciones.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.tablaRelaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tablaRelaciones.Location = new System.Drawing.Point(323, 205);
             this.tablaRelaciones.Name = "tablaRelaciones";
+            this.tablaRelaciones.ReadOnly = true;
             this.tablaRelaciones.Size = new System.Drawing.Size(517, 209);
             this.tablaRelaciones.TabIndex = 6;
             // 
