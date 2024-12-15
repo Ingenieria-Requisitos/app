@@ -60,7 +60,7 @@ namespace PlytixPIM
             }
             else
             {
-                MessageBox.Show("No puedes añadir más de 3 categorias en el plan gratuito");
+                MessageBox.Show("You cannot add more than 3 categories with the free plan");
             }
         }
 
@@ -74,8 +74,8 @@ namespace PlytixPIM
                 {
 
                         DialogResult resultado = MessageBox.Show(
-                        "¿Quieres continuar? Vas a borrar una categoria con productos asociados", // Mensaje
-                        "Confirmación",                                                           // Título de la ventana
+                        "This category has associated products.\n Are you sure to DELETE it?", // Mensaje
+                        "Confirmation",                                                           // Título de la ventana
                         MessageBoxButtons.YesNo,                                                  // Botones disponibles
                         MessageBoxIcon.Question                                                   // Icono que se muestra
                         );

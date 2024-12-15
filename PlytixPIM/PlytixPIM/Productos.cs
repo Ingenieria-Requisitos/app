@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace PlytixPIM
 {
     public partial class Productos : Form
@@ -53,7 +54,7 @@ namespace PlytixPIM
                 var productos = consulta1.Select(
                     "SELECT p.thumbnail as thumbnail," +
                     "       p.sku AS sku, " +
-                    "       p.label AS Nombre, " +
+                    "       p.label AS Label, " +
                     "       MAX(CASE WHEN a.Nombre = '" + atributo1 + "' THEN va.valor END) AS " + atributo1 + ", " +
                     "       MAX(CASE WHEN a.Nombre = '" + atributo2 + "' THEN va.valor END) AS " + atributo2 + ", " +
                     "       MAX(CASE WHEN a.Nombre = '" + atributo3 + "' THEN va.valor END) AS " + atributo3 + " " +
@@ -74,7 +75,7 @@ namespace PlytixPIM
                 var productos2 = consulta4.Select(
                     "SELECT p.thumbnail as thumbnail," +
                     "       p.sku AS sku, " +
-                    "       p.label AS Nombre, " +
+                    "       p.label AS Label, " +
                     "       MAX(CASE WHEN a.Nombre = '" + atributo1 + "' THEN va.valor END) AS " + atributo1 + ", " +
                     "       MAX(CASE WHEN a.Nombre = '" + atributo2 + "' THEN va.valor END) AS " + atributo2 + " " +
                     "FROM Producto p " +
@@ -92,7 +93,7 @@ namespace PlytixPIM
                 var productos3 = consulta5.Select(
                     "SELECT p.thumbnail as thumbnail," +
                     "       p.sku AS sku, " +
-                    "       p.label AS Nombre, " +
+                    "       p.label AS Label, " +
                     "       MAX(CASE WHEN a.Nombre = '" + atributo1 + "' THEN va.valor END) AS " + atributo1 + " " +
                     "FROM Producto p " +
                     "LEFT JOIN ValorAtributo va ON p.sku = va.producto_sku " +
@@ -147,9 +148,10 @@ namespace PlytixPIM
 
         private void bDeleteProducts_Click(object sender, EventArgs e)
         {
-            if (tablaProductos.SelectedRows.Count > 0) { 
-
+            if (tablaProductos.SelectedRows.Count > 0) {
                 
+
+
                 int skuBorrar = int.Parse(tablaProductos.SelectedRows[0].Cells["SKU"].Value.ToString());
 
                 Consulta consultaRelacion = new Consulta();
@@ -159,10 +161,9 @@ namespace PlytixPIM
                 if (cantidadRelaciones > 0)
                 {
 
-
                     DialogResult resultado = MessageBox.Show(
-                            "¿Quieres continuar? Vas a borrar un producto con relación", // Mensaje
-                            "Confirmación",                                                           // Título de la ventana
+                            "This product has an associated relationship.\n Are you sure to DELETE it?", // Mensaje
+                            "Confirmation",                                                           // Título de la ventana
                             MessageBoxButtons.YesNo,                                                  // Botones disponibles
                             MessageBoxIcon.Question                                                   // Icono que se muestra
                             );

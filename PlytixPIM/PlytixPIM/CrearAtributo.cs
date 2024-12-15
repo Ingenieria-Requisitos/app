@@ -51,13 +51,13 @@ namespace PlytixPIM
             string nombre = textName.Text;
             if(textName.Text == "")
             {
-                MessageBox.Show("Introduzca un nombre");
+                MessageBox.Show("Enter a name");
                 return;
             }
 
             if(desplegableTipo.SelectedItem == null)
             {
-                MessageBox.Show("Seleccione un tipo");
+                MessageBox.Show("Select a type");
                 return;
             }
             string tipo = desplegableTipo.SelectedItem.ToString();

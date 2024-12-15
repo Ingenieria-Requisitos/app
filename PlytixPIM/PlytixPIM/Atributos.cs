@@ -47,11 +47,19 @@ namespace PlytixPIM
 
         private void bAddAttribute_Click(object sender, EventArgs e)
         {
-            CrearAtributo crearAtributo = new CrearAtributo();
+            
+            if (tablaAtributos.Rows.Count < 5)
+            {
+                CrearAtributo crearAtributo = new CrearAtributo();
 
-            crearAtributo.Show();
+                crearAtributo.Show();
 
-            this.Hide();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("You cannot add more than 5 attributes with the free plan");
+            }
         }
 
         private void bDeleteAttribute_Click(object sender, EventArgs e)
@@ -70,8 +78,8 @@ namespace PlytixPIM
 
 
                     DialogResult resultado = MessageBox.Show(
-                        "¿Quieres continuar? Vas a borrar un atributo con productos asociados", // Mensaje
-                        "Confirmación",         // Título de la ventana
+                        "This attribute has associated products.\n Are you sure to DELETE it?", // Mensaje
+                        "Confirmation",         // Título de la ventana
                         MessageBoxButtons.YesNo, // Botones disponibles
                         MessageBoxIcon.Question // Icono que se muestra
                         );

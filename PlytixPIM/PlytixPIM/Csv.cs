@@ -129,7 +129,7 @@ namespace PlytixPIM
         {
             if (tablaProductos.Rows.Count == 0)
             {
-                MessageBox.Show($"No hay ningun producto en la lista.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"There is no products ont the list", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             try
@@ -176,7 +176,7 @@ namespace PlytixPIM
 
                     if (resp.Rows.Count < 1)
                     {
-                        MessageBox.Show($"No tiene ningun atributo de tipo entero o real. No se puede generar el CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show($"You have no float or integer type attribute. CSV cannot be generated.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         File.Delete(filePath);
                         return;
                     }
@@ -194,8 +194,8 @@ namespace PlytixPIM
                         var atributoNum = c4.Select("SELECT valor FROM ValorAtributo WHERE producto_sku = " + sku + " AND atributo_nombre = '" + atributo + "' AND valor <> ''");
                         if (atributoNum.Rows.Count == 0)
                         {
-                            MessageBox.Show($"El producto \"" + label + "\" no tiene valor definido para el atributo \"" + atributo + "\". " +
-                                "No se incluirá en el CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show($"The product \"" + label + "\" has no value defined for the attribute \"" + atributo + "\". " +
+                                "It will not be included in the CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                         else
                         {
@@ -217,11 +217,11 @@ namespace PlytixPIM
                 File.WriteAllText(finalPath, contenido);
                 File.Delete(filePath);
 
-                MessageBox.Show("Archivo CSV generado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("CSV file successfully generated.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"An error ocurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

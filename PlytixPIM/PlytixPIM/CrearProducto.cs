@@ -91,14 +91,14 @@ namespace PlytixPIM
             string gtin = gtinBox.Text;
             if (gtin.Length != 14)
             {
-                MessageBox.Show("El GTIN debe tener 14 dígitos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("The GTIN must have 14 digits", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             
                 
             if (listaCategorias.CheckedItems.Count == 0)
             {
-                MessageBox.Show("Por favor, seleccione como mínimo una categoría.", "Campos vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please, select at least ONE category.", "Empty fields", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             //byte[] img = GetImageBytes();
@@ -108,7 +108,7 @@ namespace PlytixPIM
             else if (string.IsNullOrEmpty(label) || string.IsNullOrEmpty(sku) || string.IsNullOrEmpty(gtin))
             {
                 // Mostrar mensaje de error
-                MessageBox.Show("Por favor, rellene todos los campos antes de continuar.", "Campos vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please, fill in all the fields before continue.", "Empty fields", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
