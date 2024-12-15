@@ -1,13 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\",
+  "WorkspaceRootPath": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\ruizp\\desktop\\jose\\uni\\tercero\\requisitos\\plytix\\app\\plytixpim\\plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\lucia\\source\\repos\\app\\plytixpim\\plytixpim\\crearrelacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearrelacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|c:\\users\\ruizp\\desktop\\jose\\uni\\tercero\\requisitos\\plytix\\app\\plytixpim\\plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\plytixpim\\relacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\relacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\plytixpim\\crearrelacion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\crearrelacion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\plytixpim\\relacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\relacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\plytixpim\\relacion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\relacion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9C66B739-64A4-4F2B-BF8C-E1EACC376AD0}|PlytixPIM\\PlytixPIM.csproj|solutionrelative:plytixpim\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,31 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs",
-              "RelativeDocumentMoniker": "PlytixPIM\\Categorias.cs",
-              "ToolTip": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs",
-              "RelativeToolTip": "PlytixPIM\\Categorias.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAABFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Relacion.cs",
+              "DocumentMoniker": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\Relacion.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Relacion.cs",
+              "ToolTip": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\Relacion.cs",
+              "RelativeToolTip": "PlytixPIM\\Relacion.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T12:32:03.289Z",
+              "WhenOpened": "2024-12-14T18:18:12.206Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "CrearRelacion.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\CrearRelacion.Designer.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\CrearRelacion.Designer.cs",
+              "ToolTip": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\CrearRelacion.Designer.cs",
+              "RelativeToolTip": "PlytixPIM\\CrearRelacion.Designer.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAIwHMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T19:12:16.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrearRelacion.cs",
+              "DocumentMoniker": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\CrearRelacion.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\CrearRelacion.cs",
+              "ToolTip": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\CrearRelacion.cs*",
+              "RelativeToolTip": "PlytixPIM\\CrearRelacion.cs*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T19:12:10.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Categorias.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs",
               "RelativeDocumentMoniker": "PlytixPIM\\Categorias.cs",
-              "ToolTip": "C:\\Users\\ruizp\\Desktop\\Jose\\uni\\tercero\\Requisitos\\Plytix\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\Categorias.cs [Dise\u00F1o]",
               "RelativeToolTip": "PlytixPIM\\Categorias.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T12:32:02.111Z",
+              "WhenOpened": "2024-12-14T18:29:38.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Relacion.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\Relacion.Designer.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Relacion.Designer.cs",
+              "ToolTip": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\Relacion.Designer.cs",
+              "RelativeToolTip": "PlytixPIM\\Relacion.Designer.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAswE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T18:25:54.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Relacion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\Relacion.cs",
+              "RelativeDocumentMoniker": "PlytixPIM\\Relacion.cs",
+              "ToolTip": "C:\\Users\\Lucia\\source\\repos\\app\\PlytixPIM\\PlytixPIM\\Relacion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlytixPIM\\Relacion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T18:08:34.259Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

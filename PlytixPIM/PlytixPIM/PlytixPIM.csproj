@@ -114,6 +114,12 @@
     <Compile Include="CrearProducto.Designer.cs">
       <DependentUpon>CrearProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="CrearRelacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearRelacion.Designer.cs">
+      <DependentUpon>CrearRelacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Csv.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrearProducto.resx">
       <DependentUpon>CrearProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearRelacion.resx">
+      <DependentUpon>CrearRelacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Csv.resx">
       <DependentUpon>Csv.cs</DependentUpon>

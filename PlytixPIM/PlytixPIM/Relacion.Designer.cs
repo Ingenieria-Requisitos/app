@@ -30,6 +30,9 @@
         {
             this.labelProducts = new System.Windows.Forms.Label();
             this.bBack = new System.Windows.Forms.Button();
+            this.bAddRelation = new System.Windows.Forms.Button();
+            this.tablaRelaciones = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaRelaciones)).BeginInit();
             this.SuspendLayout();
             // 
             // labelProducts
@@ -46,7 +49,7 @@
             // bBack
             // 
             this.bBack.Location = new System.Drawing.Point(22, 60);
-            this.bBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bBack.Margin = new System.Windows.Forms.Padding(2);
             this.bBack.Name = "bBack";
             this.bBack.Size = new System.Drawing.Size(56, 19);
             this.bBack.TabIndex = 4;
@@ -54,19 +57,41 @@
             this.bBack.UseVisualStyleBackColor = true;
             this.bBack.Click += new System.EventHandler(this.bBack_Click);
             // 
+            // bAddRelation
+            // 
+            this.bAddRelation.Location = new System.Drawing.Point(949, 545);
+            this.bAddRelation.Name = "bAddRelation";
+            this.bAddRelation.Size = new System.Drawing.Size(97, 23);
+            this.bAddRelation.TabIndex = 5;
+            this.bAddRelation.Text = "ADD RELATION";
+            this.bAddRelation.UseVisualStyleBackColor = true;
+            this.bAddRelation.Click += new System.EventHandler(this.bAddRelation_Click);
+            // 
+            // tablaRelaciones
+            // 
+            this.tablaRelaciones.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.tablaRelaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tablaRelaciones.Location = new System.Drawing.Point(323, 205);
+            this.tablaRelaciones.Name = "tablaRelaciones";
+            this.tablaRelaciones.Size = new System.Drawing.Size(517, 209);
+            this.tablaRelaciones.TabIndex = 6;
+            // 
             // Relacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1112, 612);
+            this.Controls.Add(this.tablaRelaciones);
+            this.Controls.Add(this.bAddRelation);
             this.Controls.Add(this.bBack);
             this.Controls.Add(this.labelProducts);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Relacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Relacion";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Relacion_FormClosing);
             this.Load += new System.EventHandler(this.Relacion_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.tablaRelaciones)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -76,5 +101,7 @@
 
         private System.Windows.Forms.Label labelProducts;
         private System.Windows.Forms.Button bBack;
+        private System.Windows.Forms.Button bAddRelation;
+        private System.Windows.Forms.DataGridView tablaRelaciones;
     }
 }

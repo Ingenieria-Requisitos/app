@@ -162,7 +162,7 @@ namespace PlytixPIM
 
 
                     // Escribir cabecera
-                    writer.WriteLine("Amazon -> Atributos en la app\n");
+                    writer.WriteLine("SKU,Title,FullfilledBy,Amazon_SKU,Price,OfferPrimer\n");
 
                     List<Object[]> productos = new List<Object[]>();
                     if (listCategorias.SelectedItem != null)

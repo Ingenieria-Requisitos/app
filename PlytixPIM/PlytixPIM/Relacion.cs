@@ -19,7 +19,18 @@ namespace PlytixPIM
 
         private void Relacion_Load(object sender, EventArgs e)
         {
-            
+            Consulta consulta = new Consulta();
+            string query = @"
+            SELECT nombre as 'Name', Producto as 'Product', ProductoRelacionado as 'Related Product'
+            FROM Relacion
+            ORDER BY fecha_creacion;";
+
+            DataTable res = consulta.Select(query);
+
+            // Por cada SKU en la tabla de relaciones, se busca el nombre del producto y el nombre del producto relacionado
+
+            tablaRelaciones.DataSource = res;
+            tablaRelaciones.ClearSelection();
         }
 
         private void Relacion_FormClosing(object sender, FormClosingEventArgs e)
@@ -33,5 +44,13 @@ namespace PlytixPIM
             inicio.Show();
             this.Hide();
         }
+
+        private void bAddRelation_Click(object sender, EventArgs e)
+        {
+            CrearRelacion crearRelacion = new CrearRelacion();
+            crearRelacion.Show();
+            this.Hide();
+        }
+
     }
 }
