@@ -82,15 +82,10 @@ namespace PlytixPIM
 
                     if (resultado == DialogResult.Yes)
                     {
-                        
-
                         Consulta consulta1 = new Consulta();
-
                         consulta1.Update("DELETE FROM ProductoCategoria WHERE categoria = '" + nombre + "'");
 
-
                         Consulta consulta = new Consulta();
-             
                         consulta.Delete("DELETE FROM Categoria WHERE nombre='" + nombre + "'");
 
                         this.Categorias_Load(sender, e);

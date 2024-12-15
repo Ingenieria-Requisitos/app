@@ -251,7 +251,7 @@ namespace PlytixPIM
             categoriasIniciales = new List<string>();
             Consulta c4 = new Consulta();
             DataTable categorias = c4.Select("SELECT categoria FROM ProductoCategoria WHERE producto = " + this.sku);
-            for (int i = 0; i < categorias.Rows.Count; i++)
+            for (int i = 0; i < listaCategorias.Items.Count; i++)
             {
                 foreach (DataRow categ in categorias.Rows)
                 {

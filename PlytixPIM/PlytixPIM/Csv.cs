@@ -86,51 +86,31 @@ namespace PlytixPIM
 
                 // Crear la consulta SQL para filtrar los productos
                 string consultaSQL = @"
-        SELECT p.thumbnail AS 'Thumbnail',
-               p.sku AS 'SKU',
-               p.label AS 'Label',
-               MAX(CASE WHEN pc.RowNum = 1 THEN pc.categoria END) AS 'Category 1',
-               MAX(CASE WHEN pc.RowNum = 2 THEN pc.categoria END) AS 'Category 2',
-               MAX(CASE WHEN pc.RowNum = 3 THEN pc.categoria END) AS 'Category 3'
-        FROM Producto p
-        JOIN (
-            SELECT pc.producto, c.nombre AS categoria, 
-                   ROW_NUMBER() OVER (PARTITION BY pc.producto ORDER BY c.nombre) AS RowNum
-            FROM ProductoCategoria pc
-            JOIN Categoria c ON pc.categoria = c.nombre
-        ) pc ON p.sku = pc.producto
-        WHERE p.sku IN (
-            SELECT pc.producto
-            FROM ProductoCategoria pc
-            JOIN Categoria c ON pc.categoria = c.nombre
-            WHERE c.nombre = '" + categoriaSeleccionada + @"'
-        )
-        GROUP BY p.thumbnail, p.sku, p.label;
-    ";
+                    SELECT p.thumbnail AS 'Thumbnail',
+                           p.sku AS 'SKU',
+                           p.label AS 'Label',
+                           MAX(CASE WHEN pc.RowNum = 1 THEN pc.categoria END) AS 'Category 1',
+                           MAX(CASE WHEN pc.RowNum = 2 THEN pc.categoria END) AS 'Category 2',
+                           MAX(CASE WHEN pc.RowNum = 3 THEN pc.categoria END) AS 'Category 3'
+                    FROM Producto p
+                    JOIN (
+                        SELECT pc.producto, c.nombre AS categoria, 
+                               ROW_NUMBER() OVER (PARTITION BY pc.producto ORDER BY c.nombre) AS RowNum
+                        FROM ProductoCategoria pc
+                        JOIN Categoria c ON pc.categoria = c.nombre
+                    ) pc ON p.sku = pc.producto
+                    WHERE p.sku IN (
+                        SELECT pc.producto
+                        FROM ProductoCategoria pc
+                        JOIN Categoria c ON pc.categoria = c.nombre
+                        WHERE c.nombre = '" + categoriaSeleccionada + @"'
+                    )
+                    GROUP BY p.thumbnail, p.sku, p.label;
+                ";
 
                 // Ejecutar la consulta y actualizar el DataGridView
                 Consulta consulta = new Consulta();
                 var productosFiltrados = consulta.Select(consultaSQL);
-                /*string consultaSQL = $@"
-                    SELECT p.thumbnail AS 'Thumbnail',
-                           p.sku AS 'SKU',
-                           p.label AS 'Label',
-                           MAX(CASE WHEN pc.RowNum = 1 THEN pc.cat END) AS 'Category 1',
-                           MAX(CASE WHEN pc.RowNum = 2 THEN pc.cat END) AS 'Category 2',
-                           MAX(CASE WHEN pc.RowNum = 3 THEN pc.cat END) AS 'Category 3'
-                    FROM Producto p
-                    JOIN (
-                        SELECT pc.producto as prod, c.nombre as cat, 
-                               ROW_NUMBER() OVER (PARTITION BY pc.producto ORDER BY c.nombre) AS RowNum
-                        FROM ProductoCategoria pc
-                        JOIN Categoria c ON pc.categoria = c.nombre
-                        WHERE c.nombre = '{categoriaSeleccionada}'
-                    ) pc ON p.sku = pc.prod
-                    GROUP BY p.thumbnail, p.sku, p.label;";
-
-                // Ejecutar la consulta y actualizar el DataGridView
-                Consulta consulta = new Consulta();
-                var productosFiltrados = consulta.Select(consultaSQL);*/
 
                 tablaProductos.DataSource = productosFiltrados;
                 tablaProductos.ClearSelection();
@@ -169,10 +149,12 @@ namespace PlytixPIM
                     {
                         Consulta consulta1 = new Consulta();
 
-                        productos = consulta1.SelectEscalar("SELECT gtin AS 'GTIN'," +
-                             "sku AS 'SKU'," +
-                             "label AS 'Label' " +
-                             "FROM Producto WHERE categoria_nombre='" + listCategorias.SelectedItem.ToString() + "'");
+                        productos = consulta1.SelectEscalar("SELECT p.gtin AS 'GTIN'," +
+                             "p.sku AS 'SKU'," +
+                             "p.label AS 'Label' " +
+                             "FROM Producto p " +
+                             "JOIN ProductoCategoria pc ON pc.producto = p.sku " +
+                             "WHERE pc.categoria='" + listCategorias.SelectedItem.ToString() + "'");
                     }
                     else
                     {
@@ -220,7 +202,7 @@ namespace PlytixPIM
                             string precio = atributoNum.Rows[0]["valor"].ToString();
 
                             // Preparar fila
-                            string fila = $"{sku},{label},{cuenta},{gtin},{precio},False\n";
+                            string fila = $"{sku},{label},{cuenta},{gtin},{precio},False";
                              writer.WriteLine(fila);
                         }
                         

@@ -148,8 +148,31 @@ namespace PlytixPIM
         private void bDeleteProducts_Click(object sender, EventArgs e)
         {
             if (tablaProductos.SelectedRows.Count > 0) { 
+
                 
                 int skuBorrar = int.Parse(tablaProductos.SelectedRows[0].Cells["SKU"].Value.ToString());
+
+                Consulta consultaRelacion = new Consulta();
+                DataTable relaciones = consultaRelacion.Select("SELECT COUNT(*) AS Cantidad FROM Relacion WHERE producto = " + skuBorrar);
+
+                int cantidadRelaciones = int.Parse(relaciones.Rows[0]["Cantidad"].ToString());
+                if (cantidadRelaciones > 0)
+                {
+
+
+                    DialogResult resultado = MessageBox.Show(
+                            "¿Quieres continuar? Vas a borrar un producto con relación", // Mensaje
+                            "Confirmación",                                                           // Título de la ventana
+                            MessageBoxButtons.YesNo,                                                  // Botones disponibles
+                            MessageBoxIcon.Question                                                   // Icono que se muestra
+                            );
+
+                    if (resultado != DialogResult.Yes)
+                    {
+                        // Si el usuario selecciona "No", cancelar la operación
+                        return;
+                    }
+                }
 
                 Consulta c1 = new Consulta();
                 c1.Delete("DELETE FROM ValorAtributo WHERE producto_sku=" + skuBorrar);
